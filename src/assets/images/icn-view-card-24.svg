@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icn-view-card-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-view-card">
+            <g id="icon">
+                <polygon id="bounds" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M5,11 C4.45,11 4,10.55 4,10 L4,6 C4,5.45 4.45,5 5,5 L8,5 C8.55,5 9,5.45 9,6 L9,10 C9,10.55 8.55,11 8,11 L5,11 Z M5,19 C4.45,19 4,18.55 4,18 L4,14 C4,13.45 4.45,13 5,13 L8,13 C8.55,13 9,13.45 9,14 L9,18 C9,18.55 8.55,19 8,19 L5,19 Z M11,19 C10.45,19 10,18.55 10,18 L10,14 C10,13.45 10.45,13 11,13 L14,13 C14.55,13 15,13.45 15,14 L15,18 C15,18.55 14.55,19 14,19 L11,19 Z M17,19 C16.45,19 16,18.55 16,18 L16,14 C16,13.45 16.45,13 17,13 L20,13 C20.55,13 21,13.45 21,14 L21,18 C21,18.55 20.55,19 20,19 L17,19 Z M11,11 C10.45,11 10,10.55 10,10 L10,6 C10,5.45 10.45,5 11,5 L14,5 C14.55,5 15,5.45 15,6 L15,10 C15,10.55 14.55,11 14,11 L11,11 Z M16,6 C16,5.45 16.45,5 17,5 L20,5 C20.55,5 21,5.45 21,6 L21,10 C21,10.55 20.55,11 20,11 L17,11 C16.45,11 16,10.55 16,10 L16,6 Z" id="Shape" fill="#F0F8FF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

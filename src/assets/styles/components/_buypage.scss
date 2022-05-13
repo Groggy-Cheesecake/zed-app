@@ -1,0 +1,586 @@
+.page-content.buy {
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    .top-section {
+      width: 58%;
+      position: relative;
+      text-align: center;
+      margin: 0 auto -9%;
+      z-index: 99;
+
+      .section-content {
+        display: flex;
+        position: relative;
+        margin-top: -7rem;
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 25%;
+          width: 40%;
+          padding-top: 40%;
+          background: url('../images/light-spot.png') no-repeat center;
+          background-size: 100% 100%;
+          opacity: 0.6;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: url('../images/img-cloud1.png') no-repeat right;
+          background-size: 100% 100%;
+          opacity: 0.8;
+          max-width: 120rem;
+          margin: 0 auto;
+        }
+      }
+
+      .bloodline {
+        opacity: 0.02;
+        color: #ffffff;
+        font-family: Montserrat-Bold;
+        font-size: 15rem;
+        font-weight: bold;
+        letter-spacing: 7.2px;
+        line-height: 17.5rem;
+        text-align: center;
+      }
+
+      .horse-introduction {
+        width: 37%;
+        text-align: left;
+
+        &.nakamoto:before {
+          content: 'nakamoto';
+          text-transform: uppercase;
+        }
+
+        &.szabo:before {
+          content: 'szabo';
+          text-transform: uppercase;
+        }
+
+        &.finney:before {
+          content: 'finney';
+          text-transform: uppercase;
+        }
+
+        &.buterin:before {
+          content: 'buterin';
+          text-transform: uppercase;
+        }
+
+        .title {
+          position: relative;
+          padding: 3rem 0 3.2rem;
+
+          .now-selling {
+            display: inline-block;
+            background-image: linear-gradient(135deg, #a8fff3 0%, #13a82a 100%);
+            color: transparent;
+            -webkit-background-clip: text;
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 2.4rem;
+            margin-bottom: 1.2rem;
+          }
+
+          .lg-text {
+          }
+        }
+
+        .normal-text {
+          max-width: 750px;
+          margin: 0 auto;
+        }
+      }
+
+      .horse-img-part {
+        position: relative;
+        align-self: flex-end;
+        max-width: 70rem;
+        //margin: 0 auto;
+
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 4%;
+          right: 11%;
+          width: 58%;
+          height: 3rem;
+          background: url('../images/img-shadow.svg') no-repeat center;
+          background-size: 100%;
+        }
+
+        .horse-img {
+          width: 100%;
+          position: relative;
+          z-index: 99;
+        }
+
+        .skip {
+          position: absolute;
+          top: 4rem;
+          left: 0;
+          right: 0;
+
+          .icn-txt {
+            width: 6.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            opacity: 0.64;
+            margin: 0 auto;
+
+            .icon {
+              margin-right: 0.5rem;
+            }
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+    .main-section {
+      position: relative;
+      background: linear-gradient(transparent, #22262d 30%),
+        url('../images/bkg-oval-top-bottom.svg') no-repeat top;
+      background-size: 100%;
+      padding-top: 10%;
+
+      .buy-horse {
+        width: 58%;
+        margin: 0 auto;
+
+        .buy-horse-part {
+          position: relative;
+          text-align: center;
+
+          &:before {
+            //content: "";
+            position: absolute;
+            top: -1px;
+            bottom: -1px;
+            right: -1px;
+            left: -1px;
+            background: linear-gradient(135deg, #a8fff3 0%, #13a82a 100%);
+            border-radius: 12px;
+          }
+
+          .buy-horse-content {
+            position: relative;
+            border-radius: 12px;
+            background: linear-gradient(90deg, #22262d 0%, #1d2026 100%);
+            border: 2px solid #3d645c;
+            box-shadow: 0 32px 24px 0 rgba(0, 0, 0, 0.2);
+            padding: 6rem 5.2rem 3.2rem;
+            z-index: 9;
+
+            .horse-properties {
+              display: flex;
+              justify-content: space-between;
+              max-width: 1080px;
+              margin: 0 auto;
+
+              .property {
+                display: flex;
+                text-align: left;
+
+                .property-img {
+                  margin-right: 1.5rem;
+                  opacity: 0.32;
+
+                  &.gen {
+                    opacity: 1;
+                  }
+                }
+
+                .property-text .normal-text {
+                  display: flex;
+                  align-items: center;
+
+                  .icn-info {
+                    height: auto;
+                    width: 2rem;
+                    margin-left: 0.5rem;
+                    opacity: 0.64;
+                    cursor: pointer;
+
+                    &:hover {
+                      opacity: 1;
+                    }
+                  }
+                }
+              }
+            }
+
+            .handle-btns {
+              width: 60%;
+              border-radius: 1.2rem;
+              background-color: rgba(240, 248, 255, 0.04);
+              padding: 2.4rem;
+              margin: 3.2rem auto 0;
+
+              .price-text {
+                margin-bottom: 2.4rem;
+              }
+
+              .price-btn {
+                margin-right: 3.2rem;
+                border: 1px solid rgba(240, 248, 255, 0.12);
+                background-color: unset;
+                border-radius: 4px;
+
+                .symbol {
+                  margin-left: 0.5rem;
+                }
+              }
+
+              .price-btn,
+              .buy-btn {
+                white-space: nowrap;
+                width: 45%;
+                max-width: 240px;
+              }
+            }
+          }
+        }
+      }
+
+      .app-footer {
+        background: unset;
+        padding-top: 0;
+      }
+    }
+  }
+
+  &.mobile {
+    overflow: hidden;
+
+    main {
+      overflow: hidden;
+
+      .top-section {
+        width: 100%;
+        position: relative;
+        margin-bottom: -20%;
+
+        &:before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          background: url('../images/img-cloud1.png') no-repeat bottom;
+          background-size: 100%;
+          margin: 0 auto;
+        }
+
+        .horse-introduction {
+          width: 100%;
+          padding: 0 20px;
+
+          .title {
+            padding: 15px 0 20px;
+            margin-top: 40px;
+            text-align: center;
+
+            &:before {
+              content: '';
+              position: absolute;
+              top: 0;
+              right: 0;
+              left: 0;
+              bottom: 0;
+              display: flex;
+              justify-content: center;
+              font-size: 45px;
+              font-family: 'Montserrat-bold';
+              letter-spacing: 2.5px;
+              line-height: 50px;
+              align-items: flex-start;
+              color: rgb(240, 248, 255);
+              opacity: 0.04;
+            }
+
+            .now-selling {
+              font-size: 16px;
+            }
+
+            .horse-name {
+              font-size: 24px;
+            }
+          }
+
+          .normal-text {
+            width: 100%;
+            max-width: unset;
+            text-align: left;
+          }
+        }
+
+        .horse-img-part {
+          width: auto;
+          max-width: unset;
+          margin: 40px 20px 0;
+
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: url('../images/light-spot.png') no-repeat center;
+            background-size: 100% 100%;
+          }
+
+          .horse-img {
+            width: 125%;
+            margin-left: -15%;
+          }
+        }
+      }
+
+      .main-section {
+        background: linear-gradient(transparent, #1d2026 5%),
+          url('../images/bkg-oval-top-bottom.svg') no-repeat top;
+        background-size: 100%;
+        padding-top: 25%;
+
+        .buy-horse {
+          width: auto;
+          margin: 1px;
+
+          .buy-horse-part {
+            margin-bottom: 60px;
+
+            .buy-horse-content {
+              padding: 16px 28px 32px;
+
+              .horse-properties {
+                flex-wrap: wrap;
+
+                .property {
+                  width: 50%;
+                  padding: 16px 0;
+
+                  .property-text {
+                    .grey-text {
+                      margin-bottom: 8px;
+                    }
+                  }
+                }
+              }
+
+              .handle-btns {
+                width: 100%;
+                padding: 32px 48px;
+                margin-top: 16px;
+                border-radius: 12px;
+                background-color: rgba(240, 248, 255, 0.04);
+
+                button {
+                  width: 100%;
+                }
+
+                .price-btn {
+                  border: 1px solid rgba(240, 248, 255, 0.12);
+                  border-radius: 4px;
+                  background-color: unset;
+                }
+
+                .price-text {
+                  margin: 12px 0 32px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.buy-confirm-modal {
+  padding: 4rem;
+  width: 52rem;
+  max-width: none;
+  max-height: none;
+
+  .buy-modal-content {
+    text-align: center;
+
+    .buy-confirm-form {
+      .horse-part {
+        display: flex;
+        border: 2px solid rgba(240, 248, 255, 0.04);
+        border-radius: 1.2rem;
+        background-color: rgba(240, 248, 255, 0.04);
+        padding: 2.4rem 1rem;
+        margin: 3.2rem 0 2.4rem;
+      }
+
+      .horse-info {
+        text-align: left;
+      }
+
+      .close-icon {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 2.2rem;
+        color: #89898a;
+        cursor: pointer;
+      }
+
+      .horse-part {
+        display: flex;
+        border: 2px solid rgba(240, 248, 255, 0.04);
+        border-radius: 1.2rem;
+        background-color: rgba(240, 248, 255, 0.04);
+        padding: 2.4rem 1rem;
+        margin: 3.2rem 0 2.4rem;
+
+        .horse-img {
+          width: 9rem;
+          align-self: center;
+          margin-right: 1rem;
+        }
+
+        .genotype {
+          text-align: left;
+          margin-top: 0.8rem;
+
+          span:not(:last-of-type) {
+            position: relative;
+            margin-right: 1.6rem;
+
+            &:before {
+              content: '•';
+              position: absolute;
+              right: -1.6rem;
+              top: 0;
+              bottom: 0;
+              width: 1.6rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+
+      .note-part {
+        display: flex;
+        align-items: flex-start;
+        border: 2px solid rgba(240, 248, 255, 0.64);
+        border-radius: 1.2rem;
+        background-color: #2a2e35;
+        padding: 1.6rem;
+        margin-bottom: 3.2rem;
+        text-align: left;
+
+        img {
+          margin-right: 1.6rem;
+        }
+      }
+
+      .price-field {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.6rem;
+
+        .grey-text {
+          margin-bottom: 2.4rem;
+        }
+
+        .gas-fee {
+          display: flex;
+          align-items: center;
+
+          .icon-info {
+            width: 2rem;
+            margin-left: 0.8rem;
+          }
+        }
+
+        .price-input {
+          width: 40%;
+          text-align: right;
+          position: relative;
+
+          .sm-input {
+            width: 100%;
+            max-width: 14rem;
+            padding: 0.8rem 2.6rem 0.8rem 1.5rem;
+            text-align: right;
+          }
+
+          .symbol {
+            position: absolute;
+            right: 1.5rem;
+            top: 0.91rem;
+            color: #f0f8ff;
+            font-size: 1.6rem;
+            font-weight: 500;
+            letter-spacing: 0.27px;
+            line-height: 2.8rem;
+          }
+        }
+
+        .usd-price {
+          color: rgba(240, 248, 255, 0.32);
+          font-size: 1.2rem;
+          font-weight: 500;
+          letter-spacing: 0.25px;
+          line-height: 1.6rem;
+          margin-top: 0.8rem;
+          text-align: right;
+        }
+      }
+
+      .handle-btns {
+        border-top: 1px solid rgba(240, 248, 255, 0.12);
+        padding-top: 4rem;
+        margin-top: 3.2rem;
+      }
+
+      .confirm-btn {
+        width: 80%;
+        max-width: 24rem;
+      }
+
+      section.loading {
+        .md-text {
+          margin-bottom: 2.4rem;
+        }
+
+        .tip {
+          font-size: 1.2rem;
+          color: rgba(240, 248, 255, 0.64);
+        }
+
+        .loader-content {
+          position: relative;
+          padding: 10rem 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-add-image-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-add-iage">
+            <g id="icon">
+                <polygon id="bounds" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M22.02,5 L20,5 L20,2.98 C20,2.44 19.56,2 19.02,2 L18.99,2 C18.44,2 18,2.44 18,2.98 L18,5 L15.99,5 C15.45,5 15.01,5.44 15,5.98 L15,6.01 C15,6.56 15.44,7 15.99,7 L18,7 L18,9.01 C18,9.55 18.44,10 18.99,9.99 L19.02,9.99 C19.56,9.99 20,9.55 20,9.01 L20,7 L22.02,7 C22.56,7 23,6.56 23,6.02 L23,5.98 C23,5.44 22.56,5 22.02,5 Z M17,9.01 L17,8 L15.99,8 C15.46,8 14.96,7.79 14.58,7.42 C14.21,7.04 14,6.54 14,5.98 C14,5.62 14.1,5.29 14.27,5 L6,5 C4.9,5 4,5.9 4,7 L4,19 C4,20.1 4.9,21 6,21 L18,21 C19.1,21 20,20.1 20,19 L20,10.72 C19.7,10.89 19.36,11 18.98,11 C17.89,10.99 17,10.1 17,9.01 Z M16.96,19 L7,19 C6.59,19 6.35,18.53 6.6,18.2 L8.58,15.57 C8.79,15.29 9.2,15.31 9.4,15.59 L11,18 L13.61,14.52 C13.81,14.26 14.2,14.25 14.4,14.51 L17.35,18.19 C17.61,18.52 17.38,19 16.96,19 L16.96,19 Z" id="Shape" fill="#F0F8FF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

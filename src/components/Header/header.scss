@@ -1,0 +1,300 @@
+.header {
+  width: 100%;
+  padding: 2.6rem 0;
+  background: url('../../assets/images/racing-header.svg') no-repeat center;
+  background-size: cover;
+  font-family: Montserrat-Regular;
+  font-size: 1.6rem;
+  position: relative;
+
+  @media screen and (max-width: 1280px) {
+    padding: 2rem 0;
+  }
+
+  .header-content {
+    width: 65%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    .left-part {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .right-part {
+      display: flex;
+      align-items: center;
+
+      .activity-part {
+        width: 2.4rem;
+        margin-right: 1.6rem;
+        .icon {
+          width: 100%;
+        }
+      }
+
+      .user-part {
+        padding-left: 1.6rem;
+        border-left: 1px solid rgba(240, 248, 255, 0.12);
+        .icon-sm {
+          background: #f0f8ff !important;
+          margin-right: 0 !important;
+        }
+      }
+
+      .start-part {
+        padding-left: 1.6rem;
+        .start {
+          padding: 0.6rem 3rem;
+        }
+      }
+
+      .translation-part {
+        border-left: none;
+        margin-right: 0;
+        border-right: 1px solid rgba(240, 248, 255, 0.12);
+        padding: 0.5rem 1.6rem 0.5rem 0;
+      }
+    }
+
+    .logo-part {
+      margin-right: 9rem;
+      .logo-img {
+        width: 6rem;
+      }
+    }
+
+    .icon-part-wrap {
+      margin-right: 2.6rem;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .icon-part {
+        display: flex;
+        align-items: center;
+
+        @media screen and (max-width: 1680px) {
+          margin-right: 2rem;
+        }
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        &:hover {
+          .primary-text {
+            color: #f0f8ff;
+          }
+
+          .icon-sm {
+            background: linear-gradient(135deg, #3d675d 0%, #395052 100%);
+
+            .icon {
+              opacity: 1;
+            }
+          }
+
+          .icon-arrow {
+            opacity: 1;
+          }
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        .icon-sm {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.6rem;
+          margin-right: 0.6rem;
+          background-color: rgba(240, 248, 255, 0.04);
+          border-radius: 50%;
+
+          @media screen and (max-width: 1680px) {
+            margin-right: 0.5rem;
+          }
+
+          .icon {
+            width: 2.4rem;
+            height: 2.4rem;
+            opacity: 0.64;
+          }
+        }
+
+        .icon-arrow {
+          width: 2.4rem;
+          height: 2.4rem;
+          border-radius: 50%;
+          margin-left: 0.8rem;
+          opacity: 0.64;
+
+          &:hover {
+            background: linear-gradient(135deg, #3d675d 0%, #395052 100%);
+          }
+        }
+      }
+
+      &.more {
+      }
+    }
+  }
+}
+
+.app-header {
+  &.mobile {
+    width: 100%;
+    justify-content: flex-end;
+    border: none;
+    padding: 74px 0 0;
+    font-family: Montserrat-Regular;
+    font-size: 1.6rem;
+    position: relative;
+    z-index: 1009;
+
+    .logo-content {
+      padding: 36px 20px 20px;
+      a {
+        margin: 0;
+
+        .logo-img {
+          width: 50px;
+        }
+      }
+    }
+
+    .start-menu {
+      display: flex;
+      align-items: center;
+
+      .start-btn {
+        margin: 36px 0 20px;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-weight: normal;
+      }
+    }
+
+    .header-item {
+      padding: 0 40px;
+      .item-text {
+        padding: 16px 0 !important;
+
+        a {
+          display: flex;
+          justify-content: space-between;
+          margin: 0;
+          color: #f0f8ff;
+
+          .icon-wrap {
+            width: 24px;
+            height: 24px;
+            background-size: 100% 100% !important;
+
+            &.reddit {
+              background: url('../../assets/images/icn-reddit-24.svg') no-repeat;
+            }
+            &.medium {
+              background: url('../../assets/images/icn-medium-24.svg') no-repeat;
+            }
+            &.discord {
+              background: url('../../assets/images/icn-discord-24.svg') no-repeat;
+            }
+            &.twitter {
+              background: url('../../assets/images/twitter-logo-silhouette.svg') no-repeat;
+            }
+          }
+        }
+      }
+    }
+    .item-disabled {
+      color: #47494e !important;
+    }
+  }
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 20px;
+  height: 15px;
+  left: 50px;
+  top: 25px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 100%;
+  }
+}

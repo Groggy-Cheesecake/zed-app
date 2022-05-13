@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="45px" viewBox="0 0 70 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>night switch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="25" rx="12.5"></rect>
+        <filter x="-40.0%" y="-40.0%" width="180.0%" height="260.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0536118659 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-Web" transform="translate(-534.000000, -1065.000000)">
+            <g id="night-switch" transform="translate(544.000000, 1065.000000)">
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-5" fill="#819099" x="36" y="8" width="3" height="9" rx="1.5"></rect>
+                <circle id="Oval-2" fill="#819099" cx="12.5" cy="12.5" r="12.5"></circle>
+                <circle id="Oval-5" fill="#FFFFFF" cx="12.5" cy="12.5" r="3.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

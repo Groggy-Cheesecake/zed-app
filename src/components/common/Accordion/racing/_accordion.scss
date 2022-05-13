@@ -1,0 +1,125 @@
+.racing-content {
+  .accordion {
+    width: 100%;
+  }
+  .panel {
+    position: relative;
+    margin-bottom: 1.6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &[aria-expanded='true'] {
+      .panel__label {
+        .label-content {
+          opacity: 0;
+        }
+
+        &:before,
+        &:after {
+          content: none;
+        }
+      }
+    }
+
+    &__label {
+      padding: 0;
+      border: 1px solid #232930;
+      font-family: Montserrat-Regular;
+      background-color: #2a2e35;
+      border-radius: 8px;
+      overflow: hidden;
+      will-change: height;
+      transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+
+      &:hover {
+        background-image: unset;
+        border: 1px solid rgba(240, 248, 255, 0.32);
+        background-color: rgba(240, 248, 255, 0.12) !important;
+      }
+
+      &:before,
+      &:after {
+        content: none;
+      }
+
+      .label-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.75rem 3.2rem 1.75rem 1.75rem;
+
+        .left {
+          display: flex;
+          align-items: center;
+
+          .label-img {
+            width: 4.5rem;
+            height: 4.5rem;
+            align-self: start;
+            margin-right: 2.35rem;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .name {
+            margin-right: 1.6rem;
+          }
+
+          .gen {
+            position: relative;
+            margin-left: 2rem;
+
+            &:before {
+              content: '•';
+              position: absolute;
+              left: -2rem;
+              top: 0;
+              bottom: 0;
+              width: 2rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+
+        .right {
+          width: 40%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          text-align: right;
+
+          .time {
+            width: 35%;
+          }
+        }
+      }
+
+      &.results {
+        .label-content {
+          .right .time {
+            width: 45%;
+          }
+        }
+      }
+    }
+    &__content {
+      padding: 0;
+      border: none;
+      position: relative;
+
+      .open-label {
+        position: absolute;
+        right: 3.2rem;
+        top: 3.2rem;
+        z-index: 999;
+        cursor: pointer;
+      }
+    }
+  }
+}

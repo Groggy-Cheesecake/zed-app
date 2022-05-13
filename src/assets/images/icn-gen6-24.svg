@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-gen6-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A3A9B0" offset="0%"></stop>
+            <stop stop-color="#63686F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-gen6">
+            <g id="icon">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M12.3725167,0.420519692 C12.7251463,0.816308258 21,10.2263346 21,15.0352547 C21,19.9777349 16.961917,24 12,24 C7.03805265,24 3,19.9777349 3,15.0352547 C3,10.2263346 11.2748233,0.816308258 11.6274833,0.420519692 L12,0 L12.3725167,0.420519692 Z M9.25952089,7.3714532 C6.91449626,10.5674328 5.5,13.2835757 5.5,14.6598486 C5.5,18.109989 8.42805645,20.9065184 12,20.9065184 C15.5719249,20.9065184 18.5,18.1099776 18.5,14.6598486 C18.5,13.2835787 17.0855014,10.5674395 14.7404689,7.37145487 C13.8779709,6.19597855 12.9448434,5.0243079 11.9999934,3.90651835 C11.0551514,5.02429693 10.12202,6.19597313 9.25952089,7.3714532 Z" id="Shape-Copy-2" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,211 @@
+.search-filter {
+  width: 85%;
+  margin: auto 0;
+
+  .content-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left,
+    .right {
+      display: flex;
+      align-items: center;
+    }
+
+    .left {
+      width: 50%;
+
+      .search-input {
+        width: 100%;
+        max-width: 45rem;
+        position: relative;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 1rem;
+          top: 0;
+          bottom: 0;
+          width: 2.4rem;
+          background: url('../../../assets/images/icn-search-24.svg') no-repeat center;
+          background-size: 100% !important;
+          opacity: 0.64;
+        }
+
+        .search {
+          width: 100%;
+          padding: 1rem 4rem 1rem 4rem;
+          line-height: 2.3rem;
+        }
+
+        .remove-txt {
+          position: absolute;
+          top: 1.2rem;
+          right: 0.8rem;
+          height: 50%;
+          opacity: 0.64;
+          cursor: pointer;
+        }
+      }
+
+      .filters-btn {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.6rem;
+        border: 2px solid rgba(240, 248, 255, 0.12);
+        border-radius: 4px;
+        margin-left: 1.6rem;
+        opacity: 0.64;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 1;
+          border: 2px solid rgba(240, 248, 255, 0.64);
+        }
+
+        .filters {
+          margin-left: 1.2rem;
+        }
+      }
+    }
+
+    .right {
+      width: 50%;
+      justify-content: flex-end;
+
+      .select-sort {
+        width: 80%;
+        max-width: 25rem;
+        margin-left: 1.8rem;
+
+        .z-select__control {
+          background-color: rgba(240, 248, 255, 0.04);
+        }
+      }
+    }
+  }
+
+  .filter-section {
+    overflow: hidden;
+    will-change: height;
+    transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+    margin: 1.6rem 0;
+
+    .filter-content {
+      display: flex;
+      flex-wrap: wrap;
+      border: 2px solid #2a2e35;
+      border-radius: 0.8rem;
+      background-color: #2a2e35;
+      padding: 0 0 3.2rem 3.2rem;
+
+      &.open {
+        border: 2px solid #32363c;
+      }
+    }
+
+    .f-part-major {
+      width: 20%;
+      margin-top: 2.2rem;
+      margin-right: 5%;
+      padding-right: 3.2rem;
+      text-align: left;
+
+      .title {
+        margin-bottom: 1.6rem;
+        align: left;
+        color: #27b18a;
+      }
+      .z-checkbox {
+        margin-bottom: 1rem;
+      }
+      .z-radiobox {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .f-part {
+      width: 20%;
+      margin-top: 2.2rem;
+      padding-right: 3.2rem;
+      text-align: left;
+
+      .title {
+        margin-bottom: 1.6rem;
+        align: left;
+        color: #27b18a;
+      }
+      .z-checkbox {
+        margin-bottom: 1rem;
+      }
+      .z-radiobox {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .f-part-minor {
+      width: 15%;
+      margin-top: 2.2rem;
+      padding-right: 3.2rem;
+      text-align: left;
+
+      .title {
+        margin-bottom: 1.6rem;
+        align: left;
+        color: #27b18a;
+      }
+      .z-checkbox {
+        margin-bottom: 1rem;
+      }
+      .z-radiobox {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .zed-generation {
+      .inputs {
+        display: flex;
+        justify-content: space-between;
+
+        input[type='number']::-webkit-inner-spin-button,
+        input[type='number']::-webkit-outer-spin-button {
+          opacity: 0;
+        }
+
+        input {
+          width: 45%;
+          padding: 1rem;
+          line-height: 2.3rem;
+        }
+      }
+
+      .input-range {
+        width: calc(100% - 2rem);
+        margin: 2rem auto 0;
+
+        &__label {
+          display: none;
+        }
+        &__track {
+          background: rgba(240, 248, 255, 0.12);
+        }
+        &__track--active {
+          background: #27b18a;
+        }
+        &__slider {
+          width: 1.5rem;
+          height: 1.5rem;
+          background: #1c1f25;
+          border: 4px solid #27b18a;
+          margin-top: -0.85rem;
+
+          &:active {
+            background: #27b18a;
+            border: 2px solid #f0f8ff;
+          }
+        }
+      }
+    }
+  }
+}

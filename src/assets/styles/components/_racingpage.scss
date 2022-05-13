@@ -1,0 +1,435 @@
+.page-content.racing {
+  .tab-watch {
+    background-color: #2a2e35;
+
+    .tab-content {
+      width: 65%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .tab-list {
+        display: flex;
+        align-items: center;
+
+        .tab-item {
+          position: relative;
+          cursor: pointer;
+
+          .item-content {
+            display: flex;
+            align-items: center;
+            padding: 1.4rem;
+            background-color: rgb(40, 47, 54);
+            position: relative;
+            .icon {
+              margin-right: 1.2rem;
+              opacity: 0.64;
+            }
+            .primary-text {
+              opacity: 0.64;
+            }
+          }
+
+          &.active {
+            .item-content {
+              .icon,
+              .primary-text {
+                opacity: 1;
+              }
+            }
+            &:after {
+              content: '';
+            }
+          }
+
+          &:hover {
+            .item-content {
+              background-color: #32363c;
+              .icon,
+              .primary-text {
+                opacity: 1;
+              }
+            }
+          }
+
+          &:after {
+            content: none;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, #3d675d 0%, #395052 100%);
+            height: 2px;
+          }
+        }
+      }
+
+      .watch-status {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .watch-icon-wrapper {
+          padding: 0.6rem 1.6rem;
+          border-radius: 8px;
+          background-color: rgba(240, 248, 255, 0.04);
+          margin-right: 1.2rem;
+          .play-icon {
+            width: 2.6rem;
+            height: 2.6rem;
+            background: url('../images/icn-play-box-green-24.svg') no-repeat center;
+            background-size: 100% 100%;
+            opacity: 0.64;
+          }
+        }
+        .primary-text {
+          vertical-align: middle;
+        }
+
+        &:hover {
+          .watch-icon-wrapper {
+            background: linear-gradient(135deg, #3d675d 0%, #395052 100%);
+            .play-icon {
+              opacity: 1;
+            }
+          }
+          .primary-text {
+            color: #f0f8ff;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    flex: 1;
+    width: 65%;
+    margin: 0 auto;
+
+    .racing-schedule-content {
+      .starting-section {
+        margin-top: 6.4rem;
+        .starting-soon {
+          margin: 2.4rem;
+        }
+        .section-content {
+          .racing-schedule-detail {
+            border-color: #3b5f59;
+          }
+        }
+      }
+
+      .section {
+        margin-top: 6.4rem;
+        .title {
+          margin: 2.4rem;
+        }
+        .section-content {
+          text-align: center;
+
+          .racing-content {
+            .accordion-label {
+              display: flex;
+              justify-content: space-between;
+              padding: 0 3.2rem 1.6rem 2.4rem;
+
+              .right {
+                width: 40%;
+                display: flex;
+                justify-content: flex-end;
+
+                .starts {
+                  width: 35%;
+                  text-align: right;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .show-more {
+        padding: 1.1rem 2.8rem;
+        margin-top: 2.4rem;
+      }
+    }
+
+    .racing-results-content {
+      .racing-content {
+        margin-top: 4.4rem;
+        .accordion-label {
+          display: flex;
+          justify-content: space-between;
+          padding: 0 3.2rem 1.6rem 2.4rem;
+
+          .right {
+            width: 40%;
+            display: flex;
+            justify-content: flex-end;
+
+            .date {
+              width: 45%;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.buy-in-modal {
+  width: 52rem;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+
+  .buy-in-content {
+    .buy-in-form {
+      position: relative;
+      padding: 6.4rem;
+      .close-icon {
+        top: 1.6rem;
+        right: 1.6rem;
+        font-size: 2rem;
+      }
+
+      .title {
+        text-align: center;
+        width: 75%;
+        margin: 0 auto 1.6rem;
+      }
+
+      .m-text {
+        width: 100%;
+        color: rgba(240, 248, 255, 0.32) !important;
+        margin: 0 0 0 0.8rem !important;
+      }
+
+      .race-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(240, 248, 255, 0.04);
+        border-radius: 1.2rem;
+        padding: 1.55rem;
+        margin-bottom: 3.2rem;
+
+        .left {
+          display: flex;
+
+          .location {
+            width: 6.5rem;
+            height: 6.5rem;
+            margin-right: 1.55rem;
+          }
+
+          .info {
+            .pos {
+              margin-bottom: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .price-field,
+      .select-field {
+        margin-bottom: 2.4rem;
+      }
+
+      .note {
+        margin-bottom: 2rem;
+      }
+
+      .handle-btns {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5.2rem;
+        padding: 0 1rem;
+
+        .sm-btn,
+        .primary-btn {
+          min-width: 15.2rem;
+          font-size: 1.4rem;
+          padding: 1.4rem 3rem;
+          margin: 0;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
+
+.watch-live-modal {
+  width: 65%;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+
+  .watch-live-content {
+    position: relative;
+
+    .close-icon {
+      top: 1.6rem;
+      right: 1.6rem;
+      font-size: 2rem;
+    }
+
+    .racing-result-detail {
+      border: 1px solid #3b5f59;
+      border-radius: 12px;
+      background-color: #2a2e35;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+      padding: 3.1rem 3.1rem 0;
+
+      .racing-summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 3.2rem;
+        border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+
+        .country-img {
+          width: 13rem;
+          margin-right: 3.2rem;
+        }
+
+        .racing-info {
+          flex: 1;
+          .location {
+            display: flex;
+            margin-bottom: 2.4rem;
+            .name {
+              margin-right: 1.6rem;
+            }
+          }
+          .infos {
+            display: flex;
+            justify-content: space-between;
+            .left {
+              display: flex;
+              .info-item {
+                text-align: left;
+                margin-right: 6.4rem;
+
+                .overline-text {
+                  margin-bottom: 1.2rem;
+                }
+
+                &:last-child {
+                  margin: 0;
+                }
+              }
+            }
+            .right {
+              display: flex;
+              text-align: right;
+              .overline-text {
+                margin-bottom: 1.2rem;
+              }
+              .racing-price {
+                margin-right: 6.5rem;
+              }
+            }
+          }
+        }
+      }
+
+      .racing-result {
+        display: flex;
+        .racing-pos-detail {
+          padding: 3.2rem 0;
+          width: 30%;
+
+          .starting-pos {
+            text-align: left;
+          }
+
+          .positions-part {
+            margin-top: 1.6rem;
+
+            .pos-item {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0.8rem;
+
+              .pos-info {
+                display: flex;
+                align-items: center;
+              }
+
+              .pos-num {
+                width: 3.2rem;
+                height: 3.2rem;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #f0f8ff;
+                font-size: 1.1rem;
+                font-weight: 800;
+                line-height: 16px;
+                text-align: center;
+                margin-right: 1.9rem;
+              }
+
+              .ranking {
+                width: 4.8rem;
+                border-radius: 1.6rem;
+                padding: 0.4rem 0.9rem;
+                text-align: center;
+              }
+
+              &:nth-child(odd) {
+                border-radius: 2.4rem;
+                background-color: rgba(240, 248, 255, 0.04);
+              }
+
+              &:nth-child(even) {
+                border-radius: 2.4rem;
+                background-color: transparent;
+              }
+
+              &.first {
+                .ranking {
+                  background: linear-gradient(180deg, #8de0ff 0%, #54bdff 100%);
+                  color: #18191c;
+                }
+              }
+
+              &.second {
+                .ranking {
+                  background: linear-gradient(180deg, #43ceb3 0%, #20a07c 100%);
+                  color: #f0f8ff;
+                }
+              }
+
+              &.third {
+                .ranking {
+                  background: linear-gradient(180deg, #eae08a 0%, #d1be52 100%);
+                  color: #f0f8ff;
+                }
+              }
+            }
+          }
+        }
+
+        .racing-play {
+          flex: 1;
+          margin-left: 1.5rem;
+          padding: 3.2rem 0;
+
+          .racing-play-content {
+            height: 100%;
+            border: 1px solid rgba(240, 248, 255, 0.12);
+            border-radius: 0.8rem;
+            background-color: #22262d;
+          }
+        }
+      }
+    }
+  }
+}

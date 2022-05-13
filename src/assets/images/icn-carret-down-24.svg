@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-carret-down-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-icn-drop-down" fill="#F0F8FF" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M12,13.3814871 L16.0462822,9.33520499 C16.4932221,8.888265 17.217855,8.888265 17.664795,9.33520499 C18.111735,9.78214497 18.111735,10.5067779 17.664795,10.9537178 L12.8092564,15.8092564 C12.3623164,16.2561964 11.6376836,16.2561964 11.1907436,15.8092564 L6.33520499,10.9537178 C5.888265,10.5067779 5.888265,9.78214497 6.33520499,9.33520499 C6.78214497,8.888265 7.50677786,8.888265 7.95371785,9.33520499 L12,13.3814871 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

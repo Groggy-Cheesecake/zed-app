@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1278px" height="74px" viewBox="0 0 1278 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="55.7669503%" x2="0%" y2="55.7669503%" id="linearGradient-1">
+            <stop stop-color="#22262D" offset="0%"></stop>
+            <stop stop-color="#292C32" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#22262D" offset="0%"></stop>
+            <stop stop-color="#292C32" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ROASTER-OPEN" transform="translate(-323.000000, -698.000000)">
+            <g id="Group-5" transform="translate(323.000000, 698.000000)">
+                <polygon id="Rectangle-7" fill="url(#linearGradient-1)" points="639 0 1278 0 1278 74 639 74"></polygon>
+                <polygon id="Rectangle-7" fill="url(#linearGradient-2)" points="0 0 639 0 639 74 0 74"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

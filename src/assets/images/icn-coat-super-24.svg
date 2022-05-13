@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icn-coat-super-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F0F8FF" offset="0%"></stop>
+            <stop stop-color="#60656C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-stats-/-super-coat-Copy" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="icon">
+                <g id="color">
+                    <g id="Group">
+                        <path d="M12,1.2 C17.9646753,1.2 22.8,6.0353247 22.8,12 C22.8,14.8643381 21.6621461,17.6113603 19.6367532,19.6367532 C17.6113603,21.6621461 14.8643381,22.8 12,22.8 C6.0353247,22.8 1.2,17.9646753 1.2,12 C1.2,6.0353247 6.0353247,1.2 12,1.2 Z M12,3.2 C7.1398942,3.2 3.2,7.1398942 3.2,12 C3.2,16.8601058 7.1398942,20.8 12,20.8 C14.3339051,20.8 16.5722195,19.8728598 18.2225397,18.2225397 C19.8728598,16.5722195 20.8,14.3339051 20.8,12 C20.8,7.1398942 16.8601058,3.2 12,3.2 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

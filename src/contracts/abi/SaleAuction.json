@@ -1,0 +1,568 @@
+{
+    "abi": [
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                },
+                {
+                    "name": "",
+                    "type": "address"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "bytes"
+                }
+            ],
+            "name": "onERC721Received",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes4"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "renounceOwnership",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "owner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "isOwner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "newOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "transferOwnership",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_bidder",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "_amount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogBid",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_user",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "_payout",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogWithdraw",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "previousOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "OwnershipRenounced",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "previousOwner",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "newOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "OwnershipTransferred",
+            "type": "event"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_core",
+                    "type": "address"
+                },
+                {
+                    "name": "_owner",
+                    "type": "address"
+                }
+            ],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "sender",
+                    "type": "address"
+                }
+            ],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_owner",
+                    "type": "address"
+                },
+                {
+                    "name": "_duration",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_horseId",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_minimum",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createUserAuction",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "userAuctionBid",
+            "outputs": [],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "userAuctionWithdraw",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "_result",
+                    "type": "string"
+                }
+            ],
+            "name": "__callback",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "myid",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "result",
+                    "type": "string"
+                },
+                {
+                    "name": "proof",
+                    "type": "bytes"
+                }
+            ],
+            "name": "__callback",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "cancelAuction",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "getQueryPrice",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getAuction",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "address[]"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_bidder",
+                    "type": "address"
+                }
+            ],
+            "name": "getBidData",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getAuctionStatus",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "getAuctionsLength",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getAuctionDuration",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getMaxBidder",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "amountOfBidders",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "getOpenAuctions",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256[]"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_from",
+                    "type": "address"
+                }
+            ],
+            "name": "getAuctionsCreated",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256[]"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getMinimumAuctionPrice",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_user",
+                    "type": "address"
+                }
+            ],
+            "name": "participatingIn",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256[]"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_to",
+                    "type": "address"
+                }
+            ],
+            "name": "giveOwnership",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_core",
+                    "type": "address"
+                }
+            ],
+            "name": "setCore",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ]
+}

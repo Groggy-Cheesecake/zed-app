@@ -1,0 +1,1342 @@
+{
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "interfaceId",
+                    "type": "bytes4"
+                }
+            ],
+            "name": "supportsInterface",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "name",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getApproved",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "approve",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "totalSupply",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_address",
+                    "type": "address"
+                }
+            ],
+            "name": "setBreedingAddr",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "transferFrom",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_addr",
+                    "type": "address"
+                }
+            ],
+            "name": "setGOPCreator",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "myid",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "result",
+                    "type": "string"
+                }
+            ],
+            "name": "__callback",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_owner",
+                    "type": "address"
+                },
+                {
+                    "name": "_hash",
+                    "type": "string"
+                },
+                {
+                    "name": "_genotype",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_gender",
+                    "type": "bytes32"
+                }
+            ],
+            "name": "mintCustomHorse",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "name": "index",
+                    "type": "uint256"
+                }
+            ],
+            "name": "tokenOfOwnerByIndex",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "myid",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "result",
+                    "type": "string"
+                },
+                {
+                    "name": "proof",
+                    "type": "bytes"
+                }
+            ],
+            "name": "__callback",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_horseId",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_baseValue",
+                    "type": "uint256"
+                }
+            ],
+            "name": "setBaseValue",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_horse",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getBaseValue",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "unpause",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "safeTransferFrom",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "isPauser",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "exists",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "index",
+                    "type": "uint256"
+                }
+            ],
+            "name": "tokenByIndex",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                },
+                {
+                    "name": "tokenURI",
+                    "type": "string"
+                }
+            ],
+            "name": "mintWithTokenURI",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "tokenSold",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_owner",
+                    "type": "address"
+                },
+                {
+                    "name": "_hash",
+                    "type": "string"
+                },
+                {
+                    "name": "_male",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_female",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createOffspring",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "horseDataContract",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "paused",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_owner",
+                    "type": "address"
+                },
+                {
+                    "name": "_hash",
+                    "type": "string"
+                },
+                {
+                    "name": "_batchNumber",
+                    "type": "uint256"
+                }
+            ],
+            "name": "mintToken",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "ownerOf",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "renouncePauser",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_nft",
+                    "type": "address"
+                }
+            ],
+            "name": "setSaleAuctionAddress",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "owner",
+                    "type": "address"
+                }
+            ],
+            "name": "balanceOf",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "renounceOwnership",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_horse",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getHorseSex",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_horse",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getBloodline",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "gender",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "addPauser",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "pause",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "owner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "isOwner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "horses",
+            "outputs": [
+                {
+                    "name": "buyer",
+                    "type": "address"
+                },
+                {
+                    "name": "genotype",
+                    "type": "uint256"
+                },
+                {
+                    "name": "baseValue",
+                    "type": "uint256"
+                },
+                {
+                    "name": "timestamp",
+                    "type": "uint256"
+                },
+                {
+                    "name": "lastTimeSold",
+                    "type": "uint256"
+                },
+                {
+                    "name": "amountOfTimesSold",
+                    "type": "uint256"
+                },
+                {
+                    "name": "horseHash",
+                    "type": "string"
+                },
+                {
+                    "name": "bloodline",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "sex",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "hType",
+                    "type": "bytes32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "symbol",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "addMinter",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_horse",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_hash",
+                    "type": "string"
+                }
+            ],
+            "name": "setHorseHash",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "renounceMinter",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "approved",
+                    "type": "bool"
+                }
+            ],
+            "name": "setApprovalForAll",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "isMinter",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_horse",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getTimestamp",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_data",
+                    "type": "bytes"
+                }
+            ],
+            "name": "safeTransferFrom",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "tokenURI",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_duration",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_horseId",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_minimum",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createAuction",
+            "outputs": [],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_address",
+                    "type": "address"
+                }
+            ],
+            "name": "setHorseDataAddr",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_spender",
+                    "type": "address"
+                },
+                {
+                    "name": "_tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "isTokenApproved",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "name": "operator",
+                    "type": "address"
+                }
+            ],
+            "name": "isApprovedForAll",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "newOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "transferOwnership",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_horse",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getHorseData",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                },
+                {
+                    "name": "",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "lastHorseSex",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_horseId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_amount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_duration",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogHorseInStud",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_auctionId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogAuctionCreated",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_horseId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_amountOfTimesSold",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogHorseSell",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_buyer",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "_timestamp",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogOffspringBuy",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_buyer",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "_timestamp",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogGOPCreated",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "previousOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "OwnershipRenounced",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "previousOwner",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "newOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "OwnershipTransferred",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [],
+            "name": "Paused",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [],
+            "name": "Unpaused",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "PauserAdded",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "PauserRemoved",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "MinterAdded",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "name": "MinterRemoved",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Transfer",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "approved",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Approval",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "operator",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "approved",
+                    "type": "bool"
+                }
+            ],
+            "name": "ApprovalForAll",
+            "type": "event"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "symbol",
+                    "type": "string"
+                }
+            ],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_owner",
+                    "type": "address"
+                }
+            ],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "name": "minters",
+                    "type": "address[]"
+                },
+                {
+                    "name": "pausers",
+                    "type": "address[]"
+                }
+            ],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ]
+}

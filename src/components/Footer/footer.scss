@@ -1,0 +1,232 @@
+.footer {
+  width: 100%;
+  font-family: Montserrat-Regular;
+  font-size: 1.2rem;
+  position: relative;
+  background-size: cover;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(24, 25, 28, 0) 0%, #18191c 100%);
+  padding-top: 16rem;
+
+  &.dark {
+    background-color: #1d2026;
+    padding-top: 16rem;
+  }
+
+  &.opened-cookie {
+    padding-bottom: 4rem;
+  }
+
+  &-content {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5.4rem 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-part {
+      display: flex;
+      align-items: center;
+
+      a {
+        margin-left: 3.2rem;
+        text-decoration: none;
+
+        @media screen and (max-width: 1280px) {
+          margin: 0 0 0 2.5rem;
+        }
+
+        &:hover {
+          color: white;
+        }
+
+        &.menu.selected {
+          color: white;
+        }
+      }
+    }
+
+    .icons-part {
+      display: flex;
+
+      .icon-part {
+        display: flex;
+        align-items: center;
+        margin-right: 2.6rem;
+        cursor: pointer;
+
+        @media screen and (max-width: 1680px) {
+          margin-right: 2rem;
+        }
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+        &:hover {
+          a {
+            color: #f0f8ff;
+          }
+          .icon-sm {
+            background: linear-gradient(135deg, #3d675d 0%, #395052 100%);
+            .icon {
+              opacity: 1;
+            }
+          }
+        }
+        a {
+          text-decoration: none;
+        }
+        .icon-sm {
+          width: 3.6rem;
+          height: 3.6rem;
+          padding: 0.8rem;
+          margin-right: 0.6rem;
+          background-color: rgba(240, 248, 255, 0.04);
+          border-radius: 50%;
+
+          @media screen and (max-width: 1680px) {
+            margin-right: 0.5rem;
+          }
+
+          .icon {
+            width: 2rem;
+            height: 2rem;
+            opacity: 0.64;
+          }
+        }
+      }
+    }
+  }
+
+  .cookie-content {
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 1.1rem 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+
+    button {
+      background: unset;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.app-footer {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(24, 25, 28, 0) 0%, #18191c 100%);
+  border-top: 1px solid rgba(240, 248, 255, 0.12);
+
+  &.opened-cookie {
+    padding-bottom: 4rem;
+  }
+
+  .footer-content {
+    width: 65%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: block;
+
+    img.footer-logo {
+      width: 50px;
+      margin-bottom: 4rem;
+    }
+
+    .footer-bar {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .copy-right {
+        opacity: 0.32;
+        color: #ffffff;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 2.4rem;
+        font-size: 12px;
+
+        span {
+          font-family: Lucida Grande;
+        }
+      }
+
+      .nav-part {
+        display: flex;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          color: #8f9295;
+          font-weight: bold;
+          letter-spacing: 0.38px;
+          line-height: 15px;
+          font-size: 14px;
+
+          &:first-of-type {
+            margin: 0;
+          }
+        }
+      }
+
+      .icons-part {
+        display: flex;
+        flex-direction: column;
+        margin: 35px 0;
+
+        .icon-part {
+          display: flex;
+          align-items: center;
+          margin: 0 0 15px 0;
+
+          &:last-of-type {
+            margin: 0;
+          }
+
+          img.icon {
+            opacity: 0.64;
+            margin-right: 12px;
+          }
+
+          a {
+            opacity: 0.5;
+            color: #ffffff;
+            letter-spacing: 0.38px;
+            line-height: 1.5rem;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+
+  .cookie-content {
+    width: 100%;
+    color: #ffffff;
+    padding: 1.1rem 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    font-size: 11px;
+
+    button {
+      background: unset;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.page-content.about {
+  &.bloodline {
+    .panel:nth-of-type(1) .panel__label {
+      color: #99d8b7;
+    }
+    .panel:nth-of-type(2) .panel__label {
+      color: #d7ab95;
+    }
+    .panel:nth-of-type(3) .panel__label {
+      color: #e1a7a8;
+    }
+    .panel:nth-of-type(4) .panel__label {
+      color: #ffffcc;
+    }
+  }
+
+  &.terms,
+  &.privacy {
+    .query-content {
+      .page-exp {
+        border-bottom: none;
+      }
+    }
+  }
+
+  main {
+    flex-grow: 1;
+    padding-top: 5rem;
+    overflow: auto;
+
+    .query-content {
+      width: 65%;
+      margin: 0 auto;
+
+      h2 {
+        margin-bottom: 2.5rem;
+        color: #ffffff;
+      }
+
+      .page-exp {
+        border-bottom: 1px solid #3d3e40;
+      }
+
+      @media screen and (max-width: 768px) {
+        padding: 0 2rem;
+      }
+
+      strong {
+        font-family: Montserrat-SemiBold;
+      }
+      b {
+        font-family: Montserrat-Bold;
+      }
+
+      .panel__label strong {
+        font-family: Montserrat-Bold;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  &.mobile {
+    .query-content {
+      h2,
+      .page-exp {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="731px" height="655px" viewBox="0 0 731 655" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>img-moon-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.3622104%" y1="21.7387705%" x2="90.6438526%" y2="68.5490426%" id="linearGradient-1">
+            <stop stop-color="#4C63C5" offset="0%"></stop>
+            <stop stop-color="#25936E" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-6.9%" y="-6.9%" width="113.9%" height="113.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="12" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.647739955">
+        <g id="02-darksite" transform="translate(-825.000000, -89.000000)" fill="url(#linearGradient-1)">
+            <g id="img-moon" transform="translate(816.000000, -43.000000)">
+                <g id="img-moon-bottom" transform="translate(9.000000, 132.000000)">
+                    <ellipse id="img-moon-bottomz" filter="url(#filter-2)" cx="302" cy="353.5" rx="259" ry="259.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

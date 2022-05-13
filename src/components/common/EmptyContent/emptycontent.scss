@@ -1,0 +1,31 @@
+.empty {
+  flex: 1;
+  width: 56%;
+  margin: 0 auto;
+  text-align: center;
+
+  &-content {
+    margin-top: -12%;
+
+    .mask-horse {
+      width: 360px;
+      height: 280px;
+      background: url('../../../assets/images/img-no-horse.svg') no-repeat center;
+      margin: 6rem auto 8rem;
+      cursor: pointer;
+
+      &:hover {
+        background: url('../../../assets/images/img-no-horse-hover.svg') no-repeat center;
+      }
+    }
+    .lg-text {
+      margin-bottom: 1.6rem;
+    }
+    .normal-text {
+      margin-bottom: 4.4rem;
+    }
+    .grey-text {
+      margin-top: 1.6rem;
+    }
+  }
+}

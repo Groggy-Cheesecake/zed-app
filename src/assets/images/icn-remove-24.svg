@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>70951C66-3C60-4AFB-A842-476E5FF59C5A</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="03---ui" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.319999993">
+        <g id="05-stable" transform="translate(-1444.000000, -558.000000)">
+            <g id="Group-4-Copy" transform="translate(420.000000, 526.000000)">
+                <g id="icon-copy" transform="translate(1024.000000, 32.000000)">
+                    <g id="icon">
+                        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M18,13 L6,13 C5.45,13 5,12.55 5,12 C5,11.45 5.45,11 6,11 L18,11 C18.55,11 19,11.45 19,12 C19,12.55 18.55,13 18,13 Z" id="Path" fill="#F0F8FF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

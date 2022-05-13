@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="84px" viewBox="0 0 102 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>011ECB07-8853-4C3E-8C0B-B9DB8B9CEFDA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-36.4%" y="-54.5%" width="172.7%" height="209.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="03---ui" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.123394757">
+        <g id="10-buy-horse-confirm" transform="translate(-909.000000, -414.000000)" fill="#F0F8FF">
+            <g id="new" transform="translate(700.000000, 306.000000)">
+                <g id="horse" transform="translate(88.000000, 128.000000)">
+                    <ellipse id="img-glow-mini" filter="url(#filter-1)" cx="172" cy="22" rx="33" ry="22"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

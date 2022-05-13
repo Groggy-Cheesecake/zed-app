@@ -1,0 +1,26 @@
+.icn-txt {
+  display: flex;
+  align-items: center;
+  margin-right: 3.2rem;
+  cursor: pointer;
+
+  .icon {
+    margin-right: 1.2rem;
+    opacity: 0.32;
+  }
+
+  .primary-text {
+    opacity: 0.64;
+  }
+
+  &:not(.disabled):hover {
+    .icon,
+    .primary-text {
+      opacity: 1;
+    }
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}

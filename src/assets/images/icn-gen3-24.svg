@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-gen3-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.875%" y1="0%" x2="78.125%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#765EDB" offset="0%"></stop>
+            <stop stop-color="#2B9D7F" offset="38.7105306%"></stop>
+            <stop stop-color="#43676A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-gen3">
+            <g id="icon">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M12.3725167,0.420519692 L12,0 L11.6274833,0.420519692 C11.2748233,0.816308258 3,10.2263346 3,15.0352547 C3,19.9777349 7.03805265,24 12,24 C16.961917,24 21,19.9777349 21,15.0352547 C21,10.2263346 12.7251463,0.816308258 12.3725167,0.420519692 Z M12.1241722,10.1401732 L12,10 L11.8758278,10.1401732 C11.7582744,10.2721028 9,13.4087782 9,15.0117516 C9,16.659245 10.3460175,18 12,18 C13.6539723,18 15,16.659245 15,15.0117516 C15,13.4087782 12.2417154,10.2721028 12.1241722,10.1401732 Z" id="Shape-Copy-5" fill="url(#linearGradient-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

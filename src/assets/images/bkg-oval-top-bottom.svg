@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="400px" viewBox="0 0 1920 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>9C1B9F67-DA9B-489D-9BB0-7F9E26C747CB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#747ACA" offset="0%"></stop>
+            <stop stop-color="#308664" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-4.3%" y="-27.4%" width="108.6%" height="154.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="32" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#1D2026" offset="0%"></stop>
+            <stop stop-color="#18191C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-early-release" transform="translate(0.000000, -540.000000)">
+            <g id="top-glow" transform="translate(0.000000, 640.000000)">
+                <ellipse id="bkg-oval-top-glow" fill-opacity="0.4" fill="url(#linearGradient-1)" filter="url(#filter-2)" transform="translate(960.000000, 155.500000) scale(1, -1) translate(-960.000000, -155.500000) " cx="960" cy="155.5" rx="1120" ry="175.5"></ellipse>
+                <ellipse id="bkg-oval-top-body" fill="url(#linearGradient-3)" transform="translate(960.000000, 175.500000) scale(1, -1) translate(-960.000000, -175.500000) " cx="960" cy="175.5" rx="1432" ry="175.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395px" height="53px" viewBox="0 0 395 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>D7161494-49AD-464D-B2D9-C36A02CAC7C0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="83.9676057%" y1="50%" x2="29.2524858%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.389577672" offset="54.0149275%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-4.9%" y="-90.0%" width="109.7%" height="280.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="03---ui" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.315104167">
+        <g id="10-buy-horse" transform="translate(-1015.000000, -512.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-7" transform="translate(930.000000, 180.000000)">
+                <ellipse id="img-shadow" filter="url(#filter-2)" transform="translate(282.744673, 358.467613) scale(1, -1) rotate(-2.000000) translate(-282.744673, -358.467613) " cx="282.744673" cy="358.467613" rx="185.5" ry="10"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

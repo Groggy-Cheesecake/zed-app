@@ -1,0 +1,292 @@
+.page-content.about {
+  main {
+    display: block;
+    color: white;
+
+    .top-section {
+      width: 65%;
+      text-align: center;
+      margin: 0 auto 2rem;
+
+      .green-text {
+        position: relative;
+        padding: 7rem 0;
+
+        &:before {
+          content: 'ZED';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          opacity: 0.02;
+          color: #ffffff;
+          font-family: Montserrat-Bold;
+          font-size: 14.4rem;
+          font-weight: bold;
+          letter-spacing: 7.2px;
+          line-height: 17.5rem;
+        }
+      }
+      .lg-text {
+        margin-bottom: 2.5rem;
+      }
+      .normal-text {
+        padding: 0 18rem;
+        margin: 0 auto 2.5rem;
+      }
+    }
+
+    .main-section {
+      .introduction-content {
+        position: relative;
+        background: linear-gradient(transparent, #1d2026 30%),
+          url('../images/bkg-oval-top-bottom.svg') no-repeat top;
+        background-size: 100%;
+        padding-top: 8%;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 55%;
+          background: url('../images/left_large_oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 15%;
+          padding-top: 28%;
+          z-index: 1;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 43%;
+          background: url('../images/bkg-oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 12%;
+          padding-top: 12%;
+        }
+
+        .part-content {
+          width: 65%;
+          display: flex;
+          margin: 0 auto;
+
+          .img-part {
+            width: 25%;
+
+            img {
+              width: 80%;
+              max-width: 200px;
+            }
+          }
+          .text-part {
+            width: 75%;
+          }
+
+          &.thought {
+            align-items: center;
+            padding: 6rem 2rem 6rem 6rem;
+
+            .text-part {
+              width: 60%;
+              color: #f0f8ff;
+              font-size: 1.6rem;
+              line-height: 2.8rem;
+
+              .grey-text {
+                margin-bottom: 1.2rem;
+              }
+              .lg-text {
+                margin-bottom: 1.6rem;
+              }
+            }
+          }
+
+          &.detail {
+            display: block;
+            padding: 6rem 2rem 10rem 6rem;
+            border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+
+            .img-text {
+              display: flex;
+
+              &:last-of-type {
+                .img-part {
+                  text-align: center;
+                }
+              }
+
+              .img-part {
+                .geo-horse1 {
+                  width: 40%;
+                  max-width: 80px;
+                  opacity: 0.8;
+                  margin-left: 20px;
+                }
+                .geo-horse2 {
+                  width: 10%;
+                  max-width: 32px;
+                  opacity: 0.5;
+                }
+              }
+
+              .text-part {
+                display: flex;
+                flex-wrap: wrap;
+                flex-grow: 1;
+
+                .item {
+                  width: 33%;
+                  margin: 3rem 0;
+
+                  .grey-text {
+                    margin-bottom: 0.8rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .about-detail {
+        position: relative;
+        background: linear-gradient(180deg, #1d2026, #22262d);
+
+        &:before {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 27%;
+          background: url('../images/right_large_oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 18%;
+          height: 100vh;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 4%;
+          background: url('../images/bkg-oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 12%;
+          padding-top: 12%;
+        }
+
+        .detail-content {
+          width: 65%;
+          display: flex;
+          margin: 0 auto;
+          padding: 10rem 8rem;
+          border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+
+          .item-content {
+            padding: 2rem;
+
+            .detail-item {
+              align-self: baseline;
+              padding: 4rem;
+              border: 1px solid rgba(240, 248, 255, 0.12);
+              border-radius: 1.2rem;
+              background: linear-gradient(90deg, #22262d 0%, #1d2026 100%);
+              //box-shadow: 0 32px 24px 0 rgba(76,83,124,0.2);;
+              margin-bottom: 4rem;
+
+              .grey-text {
+                display: inline-block;
+                margin-bottom: 1.2rem;
+              }
+              .md-text {
+                margin-bottom: 1.6rem;
+              }
+              .t-content {
+                color: rgba(240, 248, 255, 0.64);
+                font-size: 1.6rem;
+                font-weight: 500;
+                line-height: 2.8rem;
+              }
+
+              &.ownership {
+                .grey-text {
+                  background-image: linear-gradient(135deg, #a8fff3 0%, #13a82a 100%);
+                  color: transparent;
+                  -webkit-background-clip: text;
+                }
+              }
+              &.constant {
+                .grey-text {
+                  background-image: linear-gradient(315deg, #6c94f9 0%, #45dfe0 100%);
+                  color: transparent;
+                  -webkit-background-clip: text;
+                }
+              }
+              &.breed {
+                .grey-text {
+                  background-image: linear-gradient(137.73deg, #fad961 0%, #f76b1c 100%);
+                  color: transparent;
+                  -webkit-background-clip: text;
+                }
+              }
+              &.legacy {
+                .grey-text {
+                  background-image: linear-gradient(315deg, #3e30bc 0%, #ba61c9 100%);
+                  color: transparent;
+                  -webkit-background-clip: text;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .buy-racehorse {
+      width: 56%;
+      padding: 12rem 8rem;
+      //border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+      margin: 0 auto;
+
+      .buy-racehorse-content {
+        position: relative;
+        text-align: center;
+        background: linear-gradient(180deg, #22262d 0%, #252932 100%);
+        border-radius: 24px;
+        padding: 8rem;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
+          background: linear-gradient(
+            180deg,
+            rgba(168, 255, 243, 0) 0%,
+            rgba(19, 168, 42, 0.36) 100%
+          );
+          height: 100%;
+          z-index: -1;
+          border-radius: 24px;
+        }
+
+        .green-text {
+          margin-bottom: 2.4rem;
+        }
+        .lg-text {
+          margin-bottom: 4rem;
+        }
+
+        .green-btn.faq {
+          padding: 2.2rem 6.2rem;
+        }
+      }
+    }
+  }
+}

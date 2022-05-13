@@ -1,0 +1,452 @@
+{
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "name": "bloodlineWeights",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "renounceOwnership",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "owner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "isOwner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "name": "breedTypeWeights",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "newOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "transferOwnership",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "_horseId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_matingPrice",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_duration",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_timestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "HorseInStud",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "previousOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "OwnershipRenounced",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "previousOwner",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "newOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "OwnershipTransferred",
+            "type": "event"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "sender",
+                    "type": "address"
+                }
+            ],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_owner",
+                    "type": "address"
+                },
+                {
+                    "name": "_core",
+                    "type": "address"
+                },
+                {
+                    "name": "_breedTypes",
+                    "type": "address"
+                }
+            ],
+            "name": "initialize",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_matingPrice",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_duration",
+                    "type": "uint256"
+                }
+            ],
+            "name": "putInStud",
+            "outputs": [],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getMinimumBreedPrice",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "_result",
+                    "type": "string"
+                }
+            ],
+            "name": "__callback",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "myid",
+                    "type": "bytes32"
+                },
+                {
+                    "name": "result",
+                    "type": "string"
+                },
+                {
+                    "name": "proof",
+                    "type": "bytes"
+                }
+            ],
+            "name": "__callback",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "removeFromStud",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "studInfo",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "isHorseInStud",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "matingPrice",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256"
+                }
+            ],
+            "name": "studTime",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "getQueryPrice",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "getHorsesInStud",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256[]"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_timeframe",
+                    "type": "uint256"
+                }
+            ],
+            "name": "addTimeframe",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_horseId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "removeHorseOwner",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_horseId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "makeAvailableForStud",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_breedTypes",
+                    "type": "address"
+                }
+            ],
+            "name": "setBreedTypesAddr",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ]
+}

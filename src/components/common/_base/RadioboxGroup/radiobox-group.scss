@@ -1,0 +1,51 @@
+.radio-group {
+  label {
+    display: block;
+    padding-left: 0.5em;
+    cursor: pointer;
+
+    &:hover {
+      > span:before {
+        opacity: 1;
+      }
+    }
+
+    > span {
+      display: flex;
+      padding-bottom: 0.5rem;
+      line-height: 2.6rem;
+    }
+
+    > span:before {
+      content: '';
+      display: inline-block;
+      vertical-align: -0.25em;
+      height: 2.4rem;
+      width: 2.4rem;
+      margin-right: 0.6em;
+      background: url('../../../../assets/images/icn-radiobutton-24.svg') no-repeat center;
+      background-size: 100% !important;
+      opacity: 0.64;
+    }
+
+    > input:checked + span:before {
+      background: url('../../../../assets/images/icn-radiobutton-marked-24.svg') no-repeat center;
+      background-size: 100% !important;
+      opacity: 1;
+    }
+
+    > input:disabled + span {
+      opacity: 0.2;
+    }
+
+    > input:disabled:checked + span:before {
+      background: url('../../../../assets/images/icn-radiobutton-marked-24.svg') no-repeat center;
+      background-size: 100% !important;
+      opacity: 0.2;
+    }
+
+    > input {
+      display: none;
+    }
+  }
+}

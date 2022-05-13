@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="452px" height="790px" viewBox="0 0 452 790" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="71.2529732%" y1="73.149198%" x2="81.0716074%" y2="105.400996%" id="linearGradient-1">
+            <stop stop-color="#1D2026" offset="0%"></stop>
+            <stop stop-color="#252932" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="-557.5" cy="246" rx="998.5" ry="565"></ellipse>
+        <filter x="-4.4%" y="-3.4%" width="106.9%" height="113.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-19" dy="47" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.151013361 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Zed-2.0" transform="translate(0.000000, -1045.000000)">
+            <g id="mid-block" transform="translate(0.000000, 1045.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

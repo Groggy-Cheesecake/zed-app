@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-stud-color-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-stud-red">
+            <g id="icon">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M13.5,19 C7.23,13.3641304 4,10.5 4,7.08152174 C4,4.2173913 6.28,2 9.225,2 C10.84,2 12.455,2.73913043 13.5,3.94021739 C14.545,2.73913043 16.16,2 17.775,2 C20.72,2 23,4.2173913 23,7.08152174 C23,10.5923913 19.77,13.4565217 13.5,19 L13.5,19 Z M12,19.78125 C5.68695652,14.25 1.95652174,10.96875 1.95652174,6.5625 C1.95652174,6.375 1.95652174,6.1875 1.95652174,6 C1.3826087,6.84375 1,7.875 1,9 C1,12.5625 4.25217391,15.46875 10.5652174,21 L12,19.78125 Z" id="Shape" fill="#9452C5" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

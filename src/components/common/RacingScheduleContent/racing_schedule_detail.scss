@@ -1,0 +1,309 @@
+.racing-schedule-detail {
+  border: 1px solid rgba(240, 248, 255, 0.04);
+  border-radius: 12px;
+  background-color: #2a2e35;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+  padding: 3.1rem 3.1rem 0;
+
+  .racing-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 3.2rem;
+
+    .left {
+      display: flex;
+      align-items: center;
+      .country-img {
+        width: 13rem;
+        margin-right: 3.2rem;
+      }
+
+      .racing-info {
+        .location {
+          display: flex;
+          margin-bottom: 2.4rem;
+          .icon {
+            opacity: 0.64;
+            margin-left: 0.8rem;
+            cursor: pointer;
+          }
+        }
+        .infos {
+          display: flex;
+          text-align: left;
+          .info-item {
+            margin-right: 6.4rem;
+            .overline-text {
+              margin-bottom: 1.2rem;
+            }
+            &:last-child {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      text-align: right;
+      .overline-text {
+        margin-bottom: 1.2rem;
+      }
+      .racing-price {
+        margin-right: 6.5rem;
+      }
+    }
+  }
+
+  .racing-detail {
+    padding-top: 3.2rem;
+    padding-bottom: 4.1rem;
+    border-top: 1px solid rgba(240, 248, 255, 0.12);
+    .starting-pos {
+      text-align: left;
+    }
+    .positions-part {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.6rem;
+
+      .pos-columns {
+        width: 32%;
+        .pos-item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 8px 8px 8px 16px;
+          .pos-info {
+            display: flex;
+            .pos {
+              margin-right: 2.5rem;
+            }
+            .name {
+              margin-right: 1.2rem;
+            }
+          }
+          .pos-num {
+            width: 3.2rem;
+            height: 3.2rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f0f8ff;
+            font-size: 1.1rem;
+            font-weight: 800;
+            line-height: 16px;
+            text-align: center;
+          }
+
+          &:nth-child(odd) {
+            border-radius: 2.4rem;
+            background-color: rgba(240, 248, 255, 0.04);
+          }
+          &:nth-child(even) {
+            border-radius: 2.4rem;
+            background-color: transparent;
+          }
+          &.selectable {
+            height: 4.8rem;
+            cursor: pointer;
+            .select-txt {
+              display: none;
+              margin-right: 2rem;
+            }
+            &:hover {
+              border: 2px solid rgba(240, 248, 255, 0.64);
+              border-radius: 2.4rem;
+              background-color: rgba(240, 248, 255, 0.12);
+              .select-txt {
+                display: block;
+              }
+            }
+            &.selected {
+              .select-txt {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .pos-select-detail {
+      box-sizing: border-box;
+      border: 1px solid rgba(240, 248, 255, 0.12);
+      border-radius: 1.2rem;
+      background-color: #32363c;
+      margin-top: 3.1rem;
+
+      .other-infos {
+        padding: 2.7rem 3.3rem 2.9rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left {
+          display: flex;
+          text-align: left;
+          .open {
+            margin-right: 3rem;
+          }
+          .last-bid {
+            margin-left: 3rem;
+            .grey-text {
+              padding-right: 2rem;
+            }
+            .normal-text {
+              position: relative;
+              padding-right: 2rem;
+              .xs-text {
+                position: absolute;
+                top: 2px;
+                right: 0;
+              }
+            }
+          }
+        }
+        .right {
+          display: flex;
+          text-align: right;
+          align-items: center;
+          .select-gate {
+            width: 16rem;
+            margin-right: 1.6rem;
+          }
+          .min-bid {
+            display: flex;
+            align-items: center;
+            .icon {
+              opacity: 0.64;
+              margin-left: 1.2rem;
+            }
+          }
+          .price-input {
+            text-align: right;
+            position: relative;
+            margin: 0 1.6rem;
+            .sm-input {
+              width: 100%;
+              max-width: 13rem;
+              padding: 0.8rem 2.6rem 0.8rem 1.5rem;
+              text-align: right;
+            }
+            .symbol {
+              position: absolute;
+              right: 1.5rem;
+              top: 0.91rem;
+              color: #f0f8ff;
+              font-size: 1.6rem;
+              font-weight: 500;
+              letter-spacing: 0.27px;
+              line-height: 2.8rem;
+            }
+          }
+          .buy-in {
+            width: 14.4rem;
+          }
+        }
+      }
+
+      .select-views {
+        display: flex;
+        border-radius: 1.2rem;
+        background-color: #22262d;
+        .view-item {
+          flex: 1;
+          margin-right: 1px;
+          position: relative;
+          &:last-child {
+            margin: 0;
+            .pos-wrap {
+              border-bottom-right-radius: 1.2rem;
+            }
+          }
+          &:first-child {
+            .pos-wrap {
+              border-bottom-left-radius: 1.2rem;
+            }
+          }
+          &.selectable {
+            .pos-wrap:after {
+              content: 'Select';
+              position: absolute;
+              top: 0;
+              right: 0;
+              left: 0;
+              bottom: 0;
+              font-size: 1.6rem;
+              border-top-right-radius: 2rem;
+              border-top-left-radius: 2rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transition: all 0.5s;
+
+              color: white;
+              border: 1px solid #27b18a;
+              border-bottom: none;
+              background-color: #22262d;
+              padding: 0.5rem 0 0;
+              box-shadow: unset;
+            }
+            .pos-wrap:hover {
+              &:after {
+                background-color: #27b18a;
+                top: -0.5rem;
+                padding: 0 0 0.5rem;
+                box-shadow: inset 0px -17px 37px -10px rgba(0, 0, 0, 0.75);
+              }
+            }
+            &.selected {
+              .pos-wrap:after {
+                content: 'Selected';
+                background-color: #27b18a;
+                padding: 0 0 0.5rem;
+                box-shadow: inset 0px -17px 37px -10px rgba(0, 0, 0, 0.75);
+              }
+              .pos-wrap:hover {
+                &:after {
+                  top: 0;
+                }
+              }
+            }
+          }
+          .pos {
+            padding: 1.6rem 0;
+            text-align: center;
+          }
+          .pos-wrap {
+            border: 1px solid rgba(240, 248, 255, 0.04);
+            border-top-right-radius: 2rem;
+            border-top-left-radius: 2rem;
+            background-color: rgba(240, 248, 255, 0.04);
+            padding: 1rem 1rem 0.5rem;
+            cursor: pointer;
+            position: relative;
+            .pos-num {
+              width: 3.2rem;
+              height: 3.2rem;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #f0f8ff;
+              font-size: 1.1rem;
+              font-weight: 800;
+              line-height: 16px;
+              text-align: center;
+              margin: 0 auto;
+              box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.12);
+            }
+          }
+        }
+      }
+    }
+  }
+}

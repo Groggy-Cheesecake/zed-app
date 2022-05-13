@@ -1,0 +1,182 @@
+.page-content.soldout {
+  main {
+    display: block;
+    color: white;
+
+    .top-section {
+      position: relative;
+      text-align: center;
+      margin: 0 auto -8%;
+      z-index: 99;
+
+      .horse-introduction {
+        width: 65%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 99;
+
+        .title {
+          position: relative;
+          padding: 12rem 0 0;
+
+          &:before {
+            content: 'sold out';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.02;
+            color: #ffffff;
+            font-family: Montserrat-Bold;
+            font-size: 14.4rem;
+            font-weight: bold;
+            letter-spacing: 7.2px;
+            line-height: 17.5rem;
+            text-transform: uppercase;
+          }
+
+          .sold-out {
+            display: inline-block;
+            background-image: linear-gradient(135deg, #a8fff3 0%, #13a82a 100%);
+            color: transparent;
+            -webkit-background-clip: text;
+            font-family: 'Montserrat-Medium';
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 2.4rem;
+            margin-bottom: 1.2rem;
+          }
+
+          .lg-text {
+            width: 50%;
+            margin: 0 auto 1.6rem;
+          }
+        }
+      }
+
+      .horse-img-part {
+        position: relative;
+        width: 48%;
+        margin: 6rem auto 0;
+        padding-top: 0;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: -25rem;
+          bottom: 0;
+          background: url('../images/light-spot.png') no-repeat center;
+          background-size: contain;
+          opacity: 0.5;
+        }
+
+        .sold-sign {
+          display: inline-block;
+          border-radius: 4px;
+          background: linear-gradient(135deg, #2a2e35, #40454c);
+          padding: 0 1rem;
+          color: rgba(240, 248, 255, 0.64);
+          font-size: 1.2rem;
+          font-weight: bold;
+          letter-spacing: 0.6px;
+          line-height: 2.4rem;
+          text-align: center;
+        }
+
+        .horse-group {
+          position: relative;
+          margin-top: 3.2rem;
+          img {
+            width: 100%;
+          }
+          &:before {
+            content: '';
+            position: absolute;
+            left: -10%;
+            right: -10%;
+            top: -15rem;
+            bottom: 0;
+            background: url('../images/the-cloud.png') no-repeat center;
+            background-size: contain;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+
+    .main-section {
+      position: relative;
+      background: linear-gradient(transparent, #1d2026 30%),
+        url('../images/bkg-oval-top-bottom.svg') no-repeat top;
+      background-size: 100%;
+      padding-top: 13%;
+
+      .soldout-horse {
+        width: 58%;
+        margin: -2rem auto 0;
+        border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+
+        .soldout-horse-part {
+          position: relative;
+          margin: 0 0 16rem 0;
+          text-align: center;
+
+          &:before {
+            content: '';
+            position: absolute;
+            top: -1px;
+            bottom: -1px;
+            right: -1px;
+            left: -1px;
+            background: linear-gradient(135deg, #a8fff3 0%, #13a82a 100%);
+            border-radius: 12px;
+          }
+
+          .soldout-horse-content {
+            position: relative;
+            border-radius: 12px;
+            background: linear-gradient(90deg, #22262d 0%, #1d2026 100%);
+            box-shadow: 0 32px 24px 0 rgba(0, 0, 0, 0.2);
+            padding: 3.2rem;
+            z-index: 9;
+
+            .why {
+              width: 80%;
+              margin: 0 auto 3.2rem;
+            }
+
+            .join-part {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 80%;
+              max-width: 63rem;
+              border-radius: 12px;
+              background-color: rgba(240, 248, 255, 0.04);
+              padding: 2.4rem 3.2rem;
+              text-align: center;
+              margin: 0 auto;
+
+              .join-btn {
+                width: 24rem;
+                margin-left: 3.2rem;
+              }
+            }
+          }
+        }
+      }
+
+      .app-footer {
+        background: unset;
+        padding-top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.page-content.faq {
+  main {
+    display: block;
+    color: white;
+
+    .top-section {
+      width: 65%;
+      text-align: center;
+      margin: 0 auto 2rem;
+
+      .green-text {
+        position: relative;
+        padding: 7rem 0;
+
+        &:before {
+          content: 'INFO';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          opacity: 0.02;
+          color: #ffffff;
+          font-family: Montserrat-Bold;
+          font-size: 14.4rem;
+          font-weight: bold;
+          letter-spacing: 7.2px;
+          line-height: 17.5rem;
+        }
+      }
+      .lg-text {
+        margin-bottom: 2.5rem;
+      }
+      .normal-text {
+        padding: 0 18rem;
+        margin: 0 auto 2.5rem;
+      }
+    }
+
+    .main-section {
+      position: relative;
+      background: linear-gradient(transparent, #1d2026 7%),
+        url('../images/bkg-oval-top-bottom.svg') no-repeat top;
+      background-size: 100%;
+      padding-top: 11%;
+
+      .faq-content {
+        width: 56%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &.mobile {
+    main {
+      .top-section {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 50px;
+
+        .green-text {
+          padding: 40px 0;
+          margin-top: 20px;
+        }
+        .md-text {
+          margin-bottom: 16px;
+        }
+        .normal-text {
+          padding: 0;
+          margin: 0;
+        }
+      }
+
+      .main-section {
+        background: none;
+        padding: 0;
+
+        .glow-bg {
+          width: 100%;
+        }
+        .faq-content {
+          width: 100%;
+          padding: 0;
+          background-color: #1d2026;
+
+          .panel {
+            padding: 0 20px;
+            border-top: 1px solid #3d3e40;
+
+            .panel__label {
+              font-family: Montserrat-Regular;
+              color: #f0f8ff;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 24px;
+              padding: 16px 30px 16px 0;
+              border-bottom: none;
+            }
+            .panel__content {
+              color: rgba(240, 248, 255, 0.64);
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.support-browser-modal {
+  width: 80% !important;
+  max-width: 87.2rem !important;
+  padding: 6.4rem !important;
+  max-height: unset !important;
+
+  &.mobile {
+    width: 90% !important;
+    padding: 44px !important;
+  }
+}
+.support-browser-content {
+  text-align: center;
+
+  .normal-text {
+    margin-top: 1.6rem;
+    color: rgba(240, 248, 255, 0.64);
+  }
+
+  .browsers-note {
+    background: url('../../../assets/images/support_browser_shape.svg') no-repeat center;
+    background-size: 100% 100%;
+    margin-top: 3.2rem;
+    padding: 6rem 0 3.2rem;
+    position: relative;
+
+    .browsers {
+      display: flex;
+
+      .supported-browsers {
+        width: 62%;
+        padding: 0 2.4rem;
+
+        .browser {
+          padding: 3.2rem 2.4rem 2.8rem;
+          //cursor: pointer;
+
+          /*&:hover {
+                        border: 1px solid #F0F8FF;
+                        border-radius: 12px;
+                        background-color: #22262D;
+
+                        .normal-text {
+                            color: #F0F8FF;
+
+                            .icon-open {
+                                display: block;
+                            }
+                        }
+                    }*/
+        }
+      }
+
+      .unsupported-browsers {
+        width: 38%;
+        .browser-content {
+          padding: 0 2.4rem;
+          margin: 3.2rem 0 2.8rem;
+          border-left: 1px solid rgba(240, 248, 255, 0.12);
+        }
+      }
+
+      .browser-content {
+        display: flex;
+        justify-content: space-between;
+
+        .browser {
+          border: 1px solid transparent;
+          flex: 1;
+
+          .bro-img {
+            width: 6rem;
+            margin: 0 1.5rem;
+          }
+
+          .normal-text {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            .icon-open {
+              display: none;
+              width: 2.4rem;
+              margin-left: 0.1rem;
+            }
+          }
+        }
+      }
+    }
+
+    .note {
+      width: 54%;
+      margin: 3.2rem auto 0;
+      color: rgba(240, 248, 255, 0.32);
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: 0.25px;
+      line-height: 1.6rem;
+      text-align: center;
+    }
+  }
+
+  .got-it {
+    width: 35%;
+    margin: 6.4rem auto 0;
+  }
+
+  &.mobile {
+    .buy-confirm-form {
+      .close-icon {
+        font-size: 16px;
+      }
+      .md-text {
+        margin-top: 24px;
+      }
+      .normal-text {
+        margin-top: 24px;
+      }
+      .browsers-note {
+        background: none;
+        padding: 0;
+        margin-top: 12px;
+
+        .browsers {
+          justify-content: center;
+          align-items: center;
+          background: url('../../../assets/images/img-laptop.svg') no-repeat center;
+          padding: 50px 0 80px 0;
+
+          .bro-img {
+            width: 45px;
+          }
+          .or {
+            margin: 0 8px;
+          }
+        }
+        .note {
+          width: 100%;
+          color: rgba(240, 248, 255, 0.32);
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 0.25px;
+          line-height: 16px;
+          text-align: center;
+          margin: 12px 0 0 0;
+        }
+      }
+      .got-it {
+        width: 100%;
+        margin-top: 32px;
+      }
+    }
+  }
+}

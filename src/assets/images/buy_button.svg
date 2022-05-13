@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="295px" height="99px" viewBox="0 0 295 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="21" y="710" width="275" height="79" rx="20"></rect>
+        <filter x="-7.3%" y="-12.7%" width="114.5%" height="150.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0536118659 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PRE-SALE-WEB" transform="translate(-2134.000000, -792.000000)">
+            <g id="Buy-Section-RegistrationPanel" transform="translate(2123.000000, 82.000000)">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill-opacity="0.102185236" fill="#28292E" fill-rule="evenodd" x="21.5" y="710.5" width="274" height="78" rx="20"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="537px" viewBox="0 0 1920 537" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.9%" y="-31.6%" width="109.9%" height="163.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="37" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.240350632">
+        <g id="New-Zed-2.0" transform="translate(0.000000, -741.000000)" fill="">
+            <ellipse id="Oval-Copy-6" filter="url(#filter-1)" transform="translate(960.000000, 1009.500000) scale(1, -1) translate(-960.000000, -1009.500000) " cx="960" cy="1009.5" rx="1125" ry="175.5"></ellipse>
+        </g>
+    </g>
+</svg>

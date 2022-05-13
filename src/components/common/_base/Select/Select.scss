@@ -1,0 +1,80 @@
+.z-select {
+  width: 100%;
+  color: rgba(240, 248, 255, 0.32);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+
+  &.has-error {
+    .z-select__control {
+      border-color: #e32a39;
+
+      &:hover {
+        border-color: #e32a39;
+      }
+
+      &.z-select__control--menu-is-open {
+        border-color: #e32a39;
+      }
+    }
+  }
+
+  .z-select__control {
+    border-radius: 4px;
+    background-color: #3a3f46;
+    border: 1px solid rgba(240, 248, 255, 0.32);
+    box-shadow: none;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #f0f8ff;
+      .z-select__indicator {
+        color: #f0f8ff;
+      }
+    }
+
+    &.z-select__control--menu-is-open {
+      border: 1px solid #27b18a;
+      .z-select__indicator {
+        color: #f0f8ff;
+      }
+    }
+
+    .z-select__indicator-separator {
+      display: none;
+    }
+
+    .z-select__value-container {
+      padding: 1rem 0 1rem 1.4rem;
+      .z-select__placeholder {
+        color: rgba(240, 248, 255, 0.32);
+      }
+    }
+    .z-select__single-value {
+      color: #f0f8ff;
+      &:hover {
+        color: #f0f8ff;
+      }
+    }
+    .z-select__indicator {
+      color: rgba(240, 248, 255, 0.64);
+    }
+  }
+  .z-select__option {
+    color: #f0f8ff;
+    background-color: #3a3f46;
+    text-align: left;
+
+    &.z-select__option--is-focused {
+      background-color: #2a2e35;
+    }
+  }
+
+  .z-select__menu-list {
+    border: 1px solid rgba(240, 248, 255, 0.12);
+    border-radius: 4px;
+    background-color: #3a3f46;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+    padding: 0;
+  }
+}

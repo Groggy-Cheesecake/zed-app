@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - '10'
+before_deploy:
+  npm run build:prod
+deploy:
+  provider: gcs
+  access_key_id: GOOG47LYRF4OPVZHWDGEORGM
+  secret_access_key:
+    secure: RJyQ2bqt44LBvBD5TCba0CKBsySXCbzm2Co5bRRj4l34m4KKmWitUkMaK0TB6rX6mON9kBdlLcbNH4I+o1By0gavyrWONAc1CtpCxlO3TSzKlFJFx5Xs2iXOcuV/vJC09a1bPVBrRnf+zJuom+iQSVQChKk524OHKCVnCR+ijlB1UsgBuGgR5RhO4ODBSp8ojFu6C1koYXcfQOgXtshKbnIPob44ui249giZ6uXa5by+vt3TUdtuqJ8u0J2mFuod4KzSIfkt3jnWXaptOMJU9c5Fa6p4LiVikov5TT8j86y3Bb8mqqguvFIopr9Atrtpzlpfb8+H7LBOrV+AjRAUiouZHyVMrlsr7fVj4ACkaR2kJC+ZyTp+hoMsRjYGAU1IreaWqSG1/uSe7rbwN2zxBTjJEUsbTSUxpDqffOVsUz20gikjcI2LgWEmCxpgLTjKtk1SMQMAT78ESb/EF2apK1YLZkuZkQRKjYBx+df1qRqP15yhpRfwMRR5ZKu0cRBU/XkejhVgHHW1Mgvg+90C8KK3VKftlJv0YEF40sqH/jBd0hA546fyry/QDHaWbxoYSmTL1EY/zY9ZxQ4Ut4Dac5FLHJcDek+i0dJ37GbnZiYHsTPf7xGKyx9bY9BeLa/R05ChvmNYSv4oKxX43ZSDFS1VlqbBndrfPuq/FVhVEYU=
+  bucket: zed.run
+  acl: public-read
+  skip_cleanup: true
+  local_dir: dist
+  detect_encoding: true
+  cache_control: "max-age=31536000"
+  on:
+    branch: master
+    tags: true

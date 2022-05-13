@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>F1B63627-3368-480B-98C9-161B0A24C779</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="03---ui" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10-buy-2" transform="translate(-1056.000000, -894.000000)">
+            <g id="Group-2" transform="translate(420.000000, 842.000000)">
+                <g id="Group" transform="translate(44.000000, 44.000000)">
+                    <g id="Group-6" transform="translate(584.000000, 0.000000)">
+                        <g id="img-genotype">
+                            <g id="icon-copy" transform="translate(8.000000, 8.000000)">
+                                <g id="information-outline">
+                                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                                    <path d="M6,4.84570252 L6,21.3844386 C6,21.6332559 6.14898004,21.8578805 6.37803279,21.9528893 C6.60772362,22.0483788 6.86963498,21.996148 7.04557178,21.8194283 L11.5125797,17.3325447 L15.9794282,21.8194283 C16.156322,21.9971093 16.4212641,22.0474175 16.6469672,21.9528893 C16.8761795,21.8578805 17.025,21.6332559 17.025,21.3844386 L17.025,4.84570252 C17.025,3.82800266 16.2008247,3 15.1876329,3 L7.83752658,3 C6.82417534,3 6,3.82800266 6,4.84570252 Z" id="Path" fill="#F0F8FF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,92 @@
+.switch-container {
+  line-height: 0.5rem;
+
+  label {
+    margin: 0;
+  }
+}
+
+input[type='checkbox'].switch {
+  position: absolute;
+  opacity: 0;
+}
+
+input[type='checkbox'].switch + div {
+  vertical-align: middle;
+  width: 40px;
+  height: 20px;
+  border-radius: 999px;
+  background-color: rgba(39, 177, 138, 0.32);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow;
+  cursor: pointer;
+}
+
+input[type='checkbox'].switch + div span {
+  position: absolute;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 12px;
+}
+
+input[type='checkbox'].switch + div span:nth-child(1) {
+  margin-left: 15px;
+}
+
+input[type='checkbox'].switch + div span:nth-child(2) {
+  margin-left: 55px;
+}
+
+input[type='checkbox'].switch:checked + div {
+  width: 4rem;
+  background-position: 0 0;
+  background-color: #3b89ec;
+}
+
+input[type='checkbox'].switch + div {
+  width: 4rem;
+  height: 1rem;
+  position: relative;
+}
+
+input[type='checkbox'].switch:checked + div {
+  background-color: rgba(240, 248, 255, 0.32);
+}
+
+input[type='checkbox'].switch + div > div {
+  float: left;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: -0.75rem;
+  left: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #27b18a 0%, #395052 100%);
+  border: 2px solid #80afa1;
+  -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translate3d(1.6rem, 0, 0);
+  transform: translate3d(1.6rem, 0, 0);
+  pointer-events: none;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+input[type='checkbox'].bigswitch.switch + div > div {
+  width: 44px;
+  height: 44px;
+  margin-top: 1px;
+}
+
+input[type='checkbox'].switch:checked + div > div {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  border: 2px solid rgba(240, 248, 255, 0.64);
+  background: #a6acb3;
+}

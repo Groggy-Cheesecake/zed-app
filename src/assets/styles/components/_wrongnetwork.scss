@@ -1,0 +1,55 @@
+.page-content.wrong-network {
+  main {
+    flex: 1;
+    width: 56%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 6rem 0;
+    border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+
+    .left {
+      width: 45%;
+
+      .oops {
+        display: inline;
+        background-image: linear-gradient(135deg, #a8fff3 0%, #13a82a 100%);
+        color: transparent;
+        -webkit-background-clip: text;
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 2.4rem;
+        margin-bottom: 1.2rem;
+      }
+
+      .lg-text {
+        margin-bottom: 3.2rem;
+      }
+
+      .grey-text {
+        font-size: 1.6rem;
+        span {
+          color: white;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .right {
+      width: 45%;
+      border-radius: 8px;
+      background-color: rgba(240, 248, 255, 0.04);
+      padding: 5rem 8rem;
+
+      .video-content {
+        max-width: 360px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

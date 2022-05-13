@@ -1,0 +1,12 @@
+FROM node:10.13
+
+RUN apt update -qq && apt install -y bash curl gnupg build-essential git
+
+ENV APP_HOME /zed-front
+RUN mkdir $APP_HOME
+WORKDIR $APP_HOME
+COPY . .
+
+RUN npm install
+
+ENTRYPOINT [ "/bin/bash", "-c" , "npm run serve:prod" ]

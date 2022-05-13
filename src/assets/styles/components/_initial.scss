@@ -1,0 +1,55 @@
+.initial-content {
+  width: 100%;
+  position: relative;
+
+  .log-content {
+    width: 65%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    position: absolute;
+    top: 0;
+    left: 17.5%;
+
+    .logo-img {
+      width: 5.4rem;
+    }
+  }
+
+  .access-content {
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+    background-image: url('../images/img-fullmoon.png');
+    background-repeat: no-repeat;
+    background-position: 72% 40%;
+    background-size: 65%;
+
+    form.access-form {
+      width: 45%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 5rem;
+
+      label.testnet {
+        width: 100%;
+        color: #f0f8ff;
+        font-size: 2.4rem;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+        line-height: 2.9rem;
+        text-align: center;
+        margin-bottom: 7.3rem;
+      }
+
+      .primary-btn {
+        padding: 1.2rem 3.5rem;
+        border-radius: 8px;
+        margin-top: 3.2rem;
+      }
+    }
+  }
+}

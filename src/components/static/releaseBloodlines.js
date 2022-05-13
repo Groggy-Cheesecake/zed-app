@@ -1,0 +1,38 @@
+export const Bloodlines = {
+  nakamoto: {
+    name: 'nakamoto',
+    img: 'https://cdn.zed.run/images/000000.svg',
+    official: 'midnight_black',
+    rarity: 'super_rare',
+    availability: 'very_low',
+    purity: '91% - 95%',
+    scaricity: 'scarce',
+  },
+  szabo: {
+    name: 'szabo',
+    img: 'https://cdn.zed.run/images/F2F3F4.svg',
+    official: 'ghost_white',
+    rarity: 'super_rare',
+    availability: 'very_low',
+    purity: '82% - 84%',
+    scaricity: 'scarce',
+  },
+  finney: {
+    name: 'finney',
+    img: 'https://cdn.zed.run/images/DA70D6.svg',
+    official: 'oval_orchid',
+    rarity: 'rare',
+    availability: 'low_medium',
+    purity: '72% - 75%',
+    scaricity: 'scarce',
+  },
+  buterin: {
+    name: 'buterin',
+    img: 'https://cdn.zed.run/images/DCCDC.svg',
+    official: 'gainsboro',
+    rarity: 'rare',
+    availability: 'hight_very',
+    purity: '58% - 65%',
+    scaricity: 'common',
+  },
+}

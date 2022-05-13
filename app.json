@@ -1,0 +1,16 @@
+{
+  "addons": [],
+  "buildpacks": [],
+  "env": {
+    "API_URL": "zed-api-pr-81.herokuapp.com"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "hobby"
+    }
+  },
+  "name": "cryptofield-front",
+  "scripts": {},
+  "stack": "container"
+}

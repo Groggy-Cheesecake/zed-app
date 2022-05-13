@@ -1,0 +1,49 @@
+.z-checkbox {
+  margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  label {
+    padding-left: 0.5rem;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover:before {
+      opacity: 1 !important;
+    }
+
+    a {
+      color: #27b18a;
+      font-weight: bold;
+    }
+  }
+
+  input[type='checkbox'] {
+    visibility: hidden;
+    margin-left: -13px;
+  }
+  input[type='checkbox'] + label:before {
+    content: '';
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 0 0.6em 0 0;
+    vertical-align: top;
+    background-size: 100% !important;
+    background: url('../../../../assets/images/icn-checkbox-24.svg') no-repeat center;
+    opacity: 0.64;
+  }
+  input[type='checkbox']:checked + label:before {
+    background: url('../../../../assets/images/icn-checkbox-active-24.svg') no-repeat center;
+    background-size: 100% !important;
+    opacity: 1;
+  }
+  input[type='checkbox']:checked + label:after {
+    font-weight: bold;
+  }
+
+  input[type='checkbox']:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+  }
+}

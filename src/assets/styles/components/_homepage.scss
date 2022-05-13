@@ -1,0 +1,414 @@
+.page-content.home {
+  main {
+    display: block;
+    flex-grow: unset;
+    padding-top: 55px;
+    color: white;
+
+    section.top-section {
+      background: url('../images/mini_moons.svg') no-repeat center;
+      background-size: 80%;
+      position: relative;
+
+      .glow-bg {
+        width: 100%;
+        position: absolute;
+        bottom: -33%;
+        left: 0;
+        z-index: 99;
+
+        @media screen and (max-width: 1750px) {
+          bottom: -29%;
+        }
+      }
+    }
+
+    .top-section-content {
+      width: 65%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 21rem 0 0;
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        right: 8%;
+        top: -5%;
+        background: url('../images/img-fullmoon.png') no-repeat;
+        background-size: 100%;
+        width: 60%;
+        padding-top: 60%;
+      }
+
+      .own-special {
+        width: 50%;
+        z-index: 99;
+
+        h1 {
+          font-family: Montserrat-bold;
+          font-size: 6rem;
+          font-weight: 600;
+          letter-spacing: 3px;
+          line-height: 7.2rem;
+          text-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.19);
+          margin-bottom: 0;
+
+          @media screen and (max-width: 1850px) {
+            font-size: 5rem;
+          }
+        }
+
+        .grey-text {
+          opacity: 0.38;
+          color: #d5e4ff;
+          font-size: 1.8rem;
+          letter-spacing: 1px;
+          line-height: 2.1rem;
+          margin: 3rem 0 4.5rem;
+        }
+      }
+
+      .main-horse-image {
+        width: 54%;
+        margin-top: 7rem;
+        z-index: 99;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+
+        &:before {
+          content: '';
+          position: absolute;
+          bottom: 2rem;
+          left: 4%;
+          width: 67%;
+          padding-top: 80%;
+          background: url('../images/the-horse-2.svg') no-repeat bottom;
+          background-size: 100%;
+          z-index: -1;
+        }
+
+        .horse-animation-content {
+          transform: rotate(2deg);
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .scroll-arrow {
+      text-align: center;
+      position: relative;
+      background: linear-gradient(180deg, #1d2026 100%, #18191c 100%);
+      padding: 0 0 8rem 0;
+      margin-top: 8rem;
+
+      .arrow-img {
+        cursor: pointer;
+        position: relative;
+        z-index: 101;
+      }
+    }
+
+    section.center-section {
+      position: relative;
+      background-color: #1d2026;
+      z-index: 101;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('../images/left_large_oval.svg') no-repeat;
+        background-size: 100% 100%;
+        width: 18%;
+        height: 100vh;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 30%;
+        background: url('../images/right_large_oval.svg') no-repeat;
+        background-size: 100% 100%;
+        width: 18%;
+        height: 100vh;
+      }
+    }
+
+    section.legacy-section {
+      background: linear-gradient(180deg, #1d2026 0%, #22262d 100%);
+    }
+    section.buy-racehorse-section {
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 1rem;
+        top: 14%;
+        background: url('../images/bkg-oval.svg') no-repeat;
+        background-size: 100% 100%;
+        width: 12%;
+        padding-top: 12%;
+      }
+    }
+
+    .center-section-content,
+    .buy-racehorse-section-content,
+    .legacy-section-content {
+      width: 65%;
+      display: block;
+      margin: 0 auto;
+      padding: 0 10rem;
+      position: relative;
+      z-index: 9;
+    }
+    .center-section-content {
+      display: flex;
+      flex-direction: column;
+    }
+    .buy-racehorse-section-content {
+      width: 56%;
+      padding: 5rem 8rem 6rem;
+    }
+
+    .part-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15rem;
+
+      .img-part {
+        width: 50%;
+        text-align: center;
+      }
+
+      .text-part {
+        width: 50%;
+
+        .part-exp {
+          opacity: 0.3;
+          font-size: 1.7rem;
+          font-weight: 600;
+          line-height: 2.4rem;
+        }
+        .part-title {
+          font-size: 3.4rem;
+          font-weight: 500;
+          line-height: 4.2rem;
+          margin: 10px 0 13px;
+        }
+        .part-text {
+          font-size: 1.6rem;
+          font-weight: 500;
+          line-height: 2.4rem;
+        }
+      }
+
+      &.create-legacy {
+        margin-bottom: 0;
+      }
+
+      &.buy-racehorse {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 13rem 0 9rem;
+        border-radius: 24px;
+        background: linear-gradient(180deg, #22262d 0%, #1d2026 100%);
+        //box-shadow: 0 32px 24px 0 rgba(76,83,124,0.2);
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
+          background: linear-gradient(
+            180deg,
+            rgba(168, 255, 243, 0) 0%,
+            rgba(19, 168, 42, 0.36) 100%
+          );
+          height: 100%;
+          z-index: -1;
+          border-radius: 24px;
+        }
+
+        .text-part {
+          text-align: center;
+          .part-exp {
+            color: #27b18a;
+            opacity: unset;
+            margin-bottom: 1rem;
+          }
+          .part-title {
+            margin-bottom: 5.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  // styles on mobile.
+
+  &.mobile {
+    width: 100vw;
+    overflow: hidden;
+
+    main {
+      .top-section-content,
+      .center-section-content,
+      .buy-racehorse-section-content,
+      .legacy-section-content {
+        width: 100%;
+        display: block;
+        padding: 0 20px;
+      }
+
+      .top-section-content {
+        &:before {
+          content: '';
+          position: absolute;
+          right: -13%;
+          top: -35%;
+          background: url('../images/img-fullmoon.png') no-repeat;
+          background-size: 100%;
+          width: 75%;
+          padding-top: 75%;
+          z-index: -1;
+        }
+        .own-special {
+          width: 100%;
+          z-index: 99;
+
+          h1 {
+            width: 70%;
+            color: #f0f8ff;
+            font-size: 34px;
+            font-weight: 600;
+            letter-spacing: 0.25px;
+            line-height: 44px;
+            text-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.19);
+          }
+
+          .grey-text {
+            width: 80%;
+            color: rgba(240, 248, 255, 0.32);
+            font-size: 16px;
+            letter-spacing: 0.89px;
+            line-height: 21px;
+            opacity: 1;
+            margin: 13px 0 0 0;
+          }
+        }
+        .main-horse-image {
+          width: 100%;
+          z-index: 999;
+          float: right;
+          margin: 0 -30% 0 0;
+
+          &:before {
+            bottom: 1rem;
+            width: 60%;
+            padding-top: 60%;
+          }
+        }
+      }
+
+      .glow-bg {
+        position: relative !important;
+        bottom: 0 !important;
+        margin-top: -45px;
+      }
+
+      .part-content {
+        flex-direction: column;
+        margin: 0;
+
+        .img-part {
+          width: 100%;
+          margin-bottom: 24px;
+        }
+
+        .text-part {
+          width: 100%;
+          margin-bottom: 32px;
+
+          .part-exp {
+            color: rgba(240, 248, 255, 0.32);
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 18px;
+            opacity: 1;
+          }
+          .part-title {
+            color: #f0f8ff;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+          .part-text {
+            color: #f0f8ff;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+          }
+        }
+
+        &.create-legacy {
+          .img-part .legacy-trophy {
+            margin: 20px 0 30px;
+          }
+        }
+      }
+
+      .center-section {
+        &:before,
+        &:after {
+          content: none;
+        }
+        .early-rel {
+          flex-flow: column-reverse;
+        }
+
+        .buy-racehorse-btn {
+          text-align: center;
+          margin-bottom: 60px;
+
+          .green-btn {
+            padding: 22px 32px;
+          }
+        }
+      }
+
+      .buy-racehorse-section-content {
+        padding: 0;
+
+        .buy-racehorse {
+          padding: 140px 42px 53px 42px;
+          margin-bottom: 60px;
+
+          .part-exp {
+            color: #27b18a;
+          }
+          .horse-img {
+            width: 85%;
+            margin-bottom: 42px;
+          }
+          .normal-text {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}

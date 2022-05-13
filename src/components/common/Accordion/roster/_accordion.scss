@@ -1,0 +1,360 @@
+.roster-content {
+  .accordion {
+    width: 100%;
+  }
+
+  .panel {
+    position: relative;
+    margin-bottom: 1.6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &[aria-expanded='true'] {
+      .panel__label {
+        .label-content {
+          opacity: 0;
+        }
+
+        &:before,
+        &:after {
+          content: none;
+        }
+      }
+    }
+
+    &__label {
+      padding: 0;
+      border: 1px solid #232930;
+      font-family: Montserrat-Regular;
+      background-color: rgba(240, 248, 255, 0.04);
+      border-radius: 8px;
+      overflow: hidden;
+      will-change: height;
+      transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+
+      &:hover {
+        background-image: unset;
+        border: 1px solid rgba(240, 248, 255, 0.32);
+        background-color: rgba(240, 248, 255, 0.12) !important;
+      }
+
+      &:before,
+      &:after {
+        content: none;
+      }
+
+      .label-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.8rem 1.5rem 1.8rem 0;
+
+        .left {
+          display: flex;
+          align-items: center;
+
+          .label-horse {
+            width: 7.5rem;
+            height: 4.5rem;
+            align-self: start;
+            margin-right: 1.8rem;
+            margin-left: 1.5rem;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .name {
+            margin-right: 1rem;
+          }
+
+          .gen,
+          .gender {
+            position: relative;
+            margin-left: 2rem;
+
+            &:before {
+              content: '•';
+              position: absolute;
+              left: -2rem;
+              top: 0;
+              bottom: 0;
+              width: 2rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+
+        .right {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .stable {
+            width: 35%;
+          }
+
+          .key {
+            width: 43%;
+            font-size: 1.6rem;
+          }
+
+          .date {
+            width: 22%;
+          }
+        }
+      }
+    }
+
+    &__content {
+      padding: 3.2rem;
+      border: 1px solid rgba(240, 248, 255, 0.12);
+      border-radius: 8px;
+      background-color: rgba(240, 248, 255, 0.04);
+
+      .horse-properties {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3.2rem;
+        position: relative;
+
+        .open-label {
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 999;
+          cursor: pointer;
+        }
+
+        .panel-horse {
+          width: 300px;
+          position: relative;
+          cursor: pointer;
+
+          @media screen and (max-width: 1340px) {
+            width: 25rem;
+          }
+
+          .icon-search {
+            display: none;
+            width: 2.4rem;
+            position: absolute;
+            top: 3%;
+            right: 13%;
+          }
+
+          .horse-img {
+            width: 100%;
+          }
+
+          &:hover {
+            &:before {
+              content: '';
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 10%;
+              right: 10%;
+              border: 1px solid rgba(240, 248, 255, 0.32);
+              border-radius: 12px;
+              background-color: rgba(240, 248, 255, 0.12);
+            }
+
+            .icon-search {
+              display: block;
+            }
+          }
+        }
+
+        .name-properties {
+          flex-grow: 1;
+
+          .name-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+
+            .name-sell {
+              display: flex;
+              align-items: center;
+
+              .sell-sign {
+                border-radius: 4px;
+                background: linear-gradient(135deg, #2a2e35 0%, #41464d 100%);
+                padding: 0.4rem 1.1rem 0.4rem 1.2rem;
+                color: rgba(240, 248, 255, 0.64);
+                font-size: 1.2rem;
+                font-weight: bold;
+                letter-spacing: 0.6px;
+                line-height: 1.6rem;
+                text-align: center;
+                margin-left: 1.6rem;
+              }
+            }
+
+            .date-key {
+              position: relative;
+              width: 32.5%;
+              color: rgba(240, 248, 255, 0.32);
+              font-size: 1.1rem;
+              font-weight: 500;
+              letter-spacing: 0.25px;
+              line-height: 1.6rem;
+
+              .key {
+                color: #27b18a;
+              }
+            }
+          }
+
+          .properties-content {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .item {
+              width: 25%;
+              text-align: left;
+              margin-top: 3.2rem;
+
+              .gen {
+                margin-right: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.mobile {
+    .panel {
+      &[aria-expanded='true'] {
+        .panel__content {
+          height: 100%;
+          border: 2px solid #3d645c;
+          overflow: scroll;
+        }
+      }
+
+      &__label {
+        padding: 0;
+
+        &:hover {
+          border: none;
+        }
+
+        .label-content {
+          display: block;
+          padding: 24px 0;
+
+          .up {
+            display: flex;
+            margin-bottom: 16px;
+
+            .label-horse {
+              width: 80px;
+              align-self: baseline;
+            }
+
+            .horse-info {
+              margin-left: 5px;
+
+              .horse-type {
+                display: flex;
+
+                .gender {
+                  position: relative;
+                  margin-left: 2rem;
+
+                  &:before {
+                    content: '•';
+                    position: absolute;
+                    left: -2rem;
+                    top: 0;
+                    bottom: 0;
+                    width: 2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+                }
+              }
+            }
+          }
+
+          .down {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 16px;
+          }
+        }
+      }
+
+      &__content {
+        padding: 16px;
+
+        .horse-properties {
+          display: block;
+          padding: 27px 0 16px 0;
+          margin: 0;
+
+          .sell-sign {
+            display: inline-block;
+            border-radius: 4px;
+            background: linear-gradient(135deg, #2a2e35 0%, #41464d 100%);
+            color: rgba(240, 248, 255, 0.64);
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 0.6px;
+            line-height: 24px;
+            padding: 0 16px;
+            margin: 12px 0 24px 0;
+            text-align: center;
+          }
+
+          .date-key {
+            color: rgba(240, 248, 255, 0.32);
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.25px;
+            line-height: 16px;
+            margin-bottom: 24px;
+
+            a {
+              color: rgba(240, 248, 255, 0.32);
+            }
+          }
+
+          .panel-horse {
+            width: 100% !important;
+          }
+
+          .properties-content {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            padding: 0 22px;
+
+            .item {
+              width: 50%;
+              margin: 16px 0;
+            }
+          }
+
+          .close-btn {
+            font-size: 14px;
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+  }
+}

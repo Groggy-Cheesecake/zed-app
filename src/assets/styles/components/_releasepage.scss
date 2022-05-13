@@ -1,0 +1,654 @@
+.page-content.release {
+  main {
+    display: block;
+    color: white;
+
+    .top-section {
+      text-align: center;
+      margin: 0 auto 2rem;
+
+      .green-text {
+        position: relative;
+        padding: 7rem 0;
+
+        &:before {
+          content: 'ZED';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          opacity: 0.02;
+          color: #ffffff;
+          font-family: Montserrat-Bold;
+          font-size: 14.4rem;
+          font-weight: bold;
+          letter-spacing: 7.2px;
+          line-height: 17.5rem;
+        }
+      }
+
+      .lg-text {
+        margin-bottom: 2.5rem;
+      }
+
+      .normal-text {
+        width: 65%;
+        padding: 0 18rem;
+        margin: 0 auto 2.5rem;
+      }
+    }
+
+    .main-section {
+      .horse-introduction-content {
+        position: relative;
+        background: linear-gradient(transparent, #1d2026 30%),
+          url('../images/bkg-oval-top-bottom.svg') no-repeat top;
+        background-size: 100%;
+        padding-top: 10%;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -25%;
+          background: url('../images/left_large_oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 15%;
+          padding-top: 28%;
+          z-index: 1;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 60%;
+          background: url('../images/bkg-oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 12%;
+          padding-top: 12%;
+        }
+
+        .horse-detail-part {
+          width: 65%;
+          display: flex;
+          padding: 0 1.5rem;
+          margin: 0 auto 8rem;
+          position: relative;
+
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('../images/img-cloud.png') no-repeat right;
+            background-size: 90% 90%;
+            opacity: 0.15;
+          }
+
+          .features {
+            width: 30%;
+            padding: 8rem 0;
+
+            .item {
+              display: flex;
+              margin-bottom: 4rem;
+
+              .value {
+                margin-left: 2.5rem;
+
+                .grey-text {
+                  margin-bottom: 0.8rem;
+                }
+              }
+            }
+          }
+
+          .detail-img {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            &:before {
+              content: '';
+              position: absolute;
+              left: -20%;
+              width: 65%;
+              padding-top: 65%;
+              background-image: url('../images/light-spot.png');
+              background-size: 100% 100%;
+            }
+
+            .detail-text {
+              width: 70%;
+              position: relative;
+              z-index: 9;
+
+              .grey-text {
+                margin-bottom: 0.8rem;
+              }
+
+              .super-text {
+                display: inline-block;
+                font-size: 7rem;
+                font-weight: 900;
+                letter-spacing: 3.5px;
+                line-height: 7.2rem;
+                font-family: Montserrat-bold;
+                //background-image: linear-gradient(135deg, #A8FFF3 0%, #13A82A 100%);
+                //color: transparent;
+                color: white;
+                -webkit-background-clip: text;
+                margin-bottom: 2.4rem;
+              }
+
+              .normal-text {
+                color: rgba(240, 248, 255, 0.64);
+              }
+            }
+
+            .horse-img {
+              width: 120%;
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+
+              .h-image {
+                position: relative;
+                width: 100%;
+
+                &:before {
+                  content: '';
+                  position: absolute;
+                  bottom: 4%;
+                  right: 14%;
+                  width: 52%;
+                  height: 10%;
+                  background: url('../images/img-shadow.svg') no-repeat center;
+                  background-size: 100%;
+                }
+
+                .h-img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+
+        .horse-cards {
+          width: 56%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+          padding: 0 0 12rem;
+          margin: 0 auto;
+
+          .card {
+            width: 22%;
+            max-width: 240px;
+            position: relative;
+            border: 1px solid rgba(240, 248, 255, 0.64);
+            border-radius: 12px;
+            background-color: #272b35;
+            box-shadow: 0 32px 24px 0 rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+            text-align: center;
+            opacity: 0.6;
+            cursor: pointer;
+
+            &.soon {
+              border: 1px solid rgba(240, 248, 255, 0.24);
+              background: linear-gradient(90deg, #22262d 0%, #1d2026 100%);
+              opacity: 0.5;
+              cursor: default;
+
+              .md-text {
+                color: rgba(240, 248, 255, 0.6);
+              }
+            }
+
+            &.active {
+              opacity: 1;
+              border: 2px solid #3d645c;
+            }
+
+            .horse-img {
+              width: 100%;
+              margin: 0 auto;
+            }
+
+            .card-text {
+              position: absolute;
+              left: 2.4rem;
+              bottom: 1.6rem;
+              text-align: right;
+
+              .md-text {
+                margin-right: 3rem;
+              }
+
+              .grey-text {
+                color: rgba(240, 248, 255, 0.6);
+              }
+            }
+          }
+        }
+      }
+
+      .zed-step-content {
+        position: relative;
+        background: linear-gradient(180deg, #1d2026, #22262d);
+
+        &:before {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 10%;
+          background: url('../images/right_large_oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 18%;
+          height: 100vh;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -10%;
+          background: url('../images/bkg-oval.svg') no-repeat;
+          background-size: 100% 100%;
+          width: 12%;
+          padding-top: 12%;
+        }
+
+        .zed-introduction {
+          width: 56%;
+          padding: 12rem 10rem 12rem 22rem;
+          margin: 0 auto;
+
+          .grey-text {
+            margin-bottom: 1.2rem;
+          }
+
+          .md-text {
+            margin-bottom: 1.6rem;
+          }
+        }
+
+        .zed-step {
+          width: 56%;
+          margin: 0 auto;
+
+          .step-part {
+            width: 110%;
+            display: flex;
+            position: relative;
+
+            .step {
+              text-align: center;
+              width: 12.5%;
+              position: relative;
+
+              &:before {
+                content: '';
+                position: absolute;
+                top: 5.5rem;
+                width: 70%;
+                left: -35%;
+                border-top: 2px solid rgba(240, 248, 255, 0.12);
+              }
+
+              &.active {
+                .grey-text {
+                  color: white !important;
+                }
+
+                .step-point {
+                  border-color: white;
+                }
+
+                &:before {
+                  width: 70%;
+                  left: -35%;
+                  border-top: 2px dotted white;
+                }
+              }
+
+              &.done {
+                .step-name {
+                  color: #37da85;
+                }
+                .step-point {
+                  border: 4px solid #37da85;
+                }
+                &:before {
+                  width: 70%;
+                  left: -35%;
+                  border-color: #37da85;
+                }
+              }
+
+              &:last-child {
+                &:after {
+                  content: unset;
+                }
+              }
+
+              .step-name {
+                font-size: 1.8rem;
+                margin-bottom: 2.2rem;
+                color: rgba(240, 248, 255, 0.28);
+                font-weight: 600;
+                letter-spacing: 1px;
+                line-height: 2.4rem;
+                text-align: center;
+              }
+
+              .step-point {
+                position: relative;
+                border-radius: 50%;
+                margin: 0 auto;
+                z-index: 9;
+
+                box-sizing: border-box;
+                height: 1.8rem;
+                width: 1.8rem;
+                border: 4px solid rgba(240, 248, 255, 0.64);
+                background-color: #22262d;
+              }
+
+              .event-date {
+                color: rgba(240, 248, 255, 0.32);
+                font-size: 1.6rem;
+                letter-spacing: 0.33px;
+                line-height: 2.4rem;
+                text-align: center;
+                margin-top: 1rem;
+
+                .month {
+                  font-weight: bold;
+                  color: rgba(240, 248, 255, 0.64);
+                }
+              }
+
+              &.first {
+                .step-name {
+                  color: #27b18a;
+                }
+
+                .step-point {
+                  border: 4px solid #27b18a;
+                }
+
+                &:before {
+                  width: 70%;
+                  left: -35%;
+                  border-color: #27b18a;
+                }
+
+                &:after {
+                  border-top: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .buy-racehorse {
+      width: 56%;
+      padding: 12rem 8rem 6rem;
+      margin: 0 auto;
+
+      .buy-racehorse-content {
+        position: relative;
+        text-align: center;
+        background: linear-gradient(180deg, #22262d 0%, #252932 100%);
+        border-radius: 24px;
+        padding: 8rem;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
+          background: linear-gradient(
+            180deg,
+            rgba(168, 255, 243, 0) 0%,
+            rgba(19, 168, 42, 0.36) 100%
+          );
+          height: 100%;
+          z-index: -1;
+          border-radius: 24px;
+        }
+
+        .green-text {
+          margin-bottom: 2.4rem;
+        }
+
+        .lg-text {
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+
+  &.mobile {
+    overflow: hidden;
+
+    .top-section {
+      margin-bottom: 3.2rem;
+
+      .green-text {
+        padding: 3rem 0;
+        margin-top: 5rem;
+      }
+
+      .md-text {
+        margin-bottom: 32px;
+      }
+
+      .normal-text {
+        width: 100%;
+        padding: 0 20px;
+        margin: 0;
+        text-align: left;
+      }
+    }
+
+    .glow-img {
+      width: 100%;
+    }
+
+    .main-section {
+      .horse-introduction-content {
+        background: #1d2026;
+        padding: 0;
+        margin-top: -10px;
+
+        &:before,
+        &:after {
+          content: none;
+        }
+
+        .horse-cards {
+          width: 100%;
+          border: none;
+          padding: 0;
+          margin-bottom: 32px;
+
+          .card {
+            width: auto;
+            border: none;
+            padding: 14px 15px;
+            //flex: 1;
+            background-color: unset;
+            box-shadow: none;
+
+            .primary-text {
+              white-space: nowrap;
+            }
+
+            &.active {
+              border: none;
+
+              &:before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: linear-gradient(135deg, #3d675d 0%, #395052 100%);
+              }
+            }
+          }
+        }
+
+        .horse-detail-part {
+          display: block;
+          width: 100%;
+          padding: 0 20px;
+          margin: 0;
+          border-bottom: 1px solid rgba(240, 248, 255, 0.12);
+
+          &:before {
+            content: unset;
+          }
+
+          .detail-img {
+            width: 100%;
+            display: block;
+
+            &:before {
+              content: none;
+            }
+
+            .detail-text {
+              width: 100%;
+
+              .grey-text {
+                margin: 0;
+              }
+
+              .super-text {
+                color: #ffffff;
+                font-size: 40px;
+                font-weight: bold;
+                letter-spacing: 2px;
+                line-height: 40px;
+                margin: 16px 0;
+              }
+            }
+
+            .horse-img {
+              width: 100%;
+              position: relative;
+              margin-top: 60px;
+
+              &:before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                padding-top: 100%;
+                background: url('../images/light-spot.png') no-repeat center;
+                background-size: 100% 100%;
+              }
+
+              &:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                background: url('../images/img-cloud1.png') no-repeat center;
+                background-size: 100%;
+                opacity: 0.8;
+              }
+
+              .h-img {
+                width: 120% !important;
+                margin-left: -15%;
+              }
+            }
+          }
+
+          .features {
+            width: 100%;
+            padding: 80px 40px;
+
+            .item:last-of-type {
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .zed-step-content {
+        &:before,
+        &:after {
+          content: none;
+        }
+
+        .zed-introduction {
+          width: 100%;
+          padding: 80px 20px 0;
+
+          .grey-text {
+            margin-bottom: 20px;
+          }
+        }
+
+        .zed-step {
+          width: 100%;
+          overflow: scroll;
+          margin: 52px 0 32px;
+
+          .step-part {
+            .step {
+              flex: 0 0 132px;
+
+              &.first {
+                margin-left: 46px;
+              }
+
+              .step-name {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .buy-racehorse {
+      width: 100%;
+      padding: 0 20px 60px;
+
+      .buy-racehorse-content {
+        padding: 80px 0;
+
+        .green-text {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

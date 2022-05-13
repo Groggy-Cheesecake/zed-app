@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="88px" viewBox="0 0 1920 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>bkg-oval-top-bottom copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.4381345%" y1="100%" x2="6.9852927%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#747ACA" offset="0%"></stop>
+            <stop stop-color="#308664" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-2.8%" y="-23.9%" width="105.6%" height="147.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="28" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="04---ui-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.6">
+        <g id="bkg-copy-3" transform="translate(-540.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <ellipse id="bkg-oval-top-glow" filter="url(#filter-2)" transform="translate(1500.000000, 261.500000) scale(1, -1) translate(-1500.000000, -261.500000) " cx="1500" cy="261.5" rx="1500" ry="175.5"></ellipse>
+        </g>
+    </g>
+</svg>

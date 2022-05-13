@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="4px" viewBox="0 0 201 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>line-dotted-grad</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F0F8FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F0F8FF" stop-opacity="0.32" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="03---ui" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,7" stroke-linecap="round" stroke-linejoin="round">
+        <g id="02-early-release-v5" transform="translate(-1385.000000, -2340.000000)" stroke="url(#linearGradient-1)" stroke-width="3">
+            <g id="Group-4" transform="translate(283.000000, 2191.000000)">
+                <path d="M1104,151 L1304.94792,151" id="line-dotted-grad"></path>
+            </g>
+        </g>
+    </g>
+</svg>

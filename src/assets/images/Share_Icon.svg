@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web" transform="translate(-2273.000000, -151.000000)" stroke="#819099">
+            <g id="Buy-Section-RegistrationPanel" transform="translate(2123.000000, 82.000000)">
+                <g id="Group-4" transform="translate(151.000000, 70.000000)">
+                    <path d="M4,11 L15,4" id="Line-2" stroke-linecap="square"></path>
+                    <path d="M4,11 L15,19" id="Line-3" stroke-linecap="square"></path>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="4" cy="11" r="4"></circle>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="15" cy="19" r="4"></circle>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="15" cy="4" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

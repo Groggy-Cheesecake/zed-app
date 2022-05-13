@@ -1,0 +1,32 @@
+.offspring-tooltip {
+  opacity: 1;
+
+  .rc-tooltip-content {
+    width: 47rem;
+    border: 2px solid #ffa700;
+    border-radius: 1.2rem;
+    background-color: #2a2e35;
+
+    .rc-tooltip-inner {
+      border-radius: 1.2rem;
+      padding: 2.4rem 1.6rem 1.6rem;
+
+      .offspring-content {
+        display: flex;
+
+        .icon {
+          align-self: baseline;
+          margin-right: 1.6rem;
+        }
+
+        .note {
+          margin: 1.2rem 0;
+        }
+
+        .amber {
+          font-family: 'Montserrat-SemiBold', serif;
+        }
+      }
+    }
+  }
+}

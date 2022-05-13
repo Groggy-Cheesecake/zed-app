@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1546px" height="687px" viewBox="0 0 1546 687" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="21" cy="94" r="21"></circle>
+        <filter x="-71.4%" y="-42.9%" width="242.9%" height="242.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.595108696 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="391" cy="544" r="21"></circle>
+        <filter x="-71.4%" y="-42.9%" width="242.9%" height="242.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.595108696 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="1483.5" cy="624.5" r="30.5"></circle>
+        <filter x="-49.2%" y="-29.5%" width="198.4%" height="198.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.595108696 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="191" cy="184" r="61"></circle>
+        <filter x="-24.6%" y="-14.8%" width="149.2%" height="149.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.595108696 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-9" cx="1361" cy="21" r="21"></circle>
+        <filter x="-71.4%" y="-42.9%" width="242.9%" height="242.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.595108696 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Zed-2.0" transform="translate(-276.000000, -195.000000)">
+            <g id="Mask-2" transform="translate(292.000000, 199.000000)">
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <circle stroke-opacity="0.0628679801" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" cx="21" cy="94" r="20"></circle>
+                </g>
+                <g id="Mask-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <circle stroke-opacity="0.0628679801" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" cx="391" cy="544" r="20"></circle>
+                </g>
+                <g id="Mask-Copy-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <circle stroke-opacity="0.0628679801" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" cx="1483.5" cy="624.5" r="29.5"></circle>
+                </g>
+                <g id="Mask-Copy-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <circle stroke-opacity="0.0628679801" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" cx="191" cy="184" r="60"></circle>
+                </g>
+                <g id="Mask-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <circle stroke-opacity="0.0628679801" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" cx="1361" cy="21" r="20"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
